@@ -13,6 +13,10 @@
   - [Contents](#contents)
   - [LLM-based Financial Time Series Forecasting Models](#llm-based-financial-time-series-forecasting-models)
   - [LLM-based Financial Models](#llm-based-financial-models)
+    - [AI Agents for Finance](#ai-agents-for-finance)
+    - [Stock Prediction and Analysis](#stock-prediction-and-analysis)
+    - [Benchmarks and Datasets](#benchmarks-and-datasets)
+    - [General Financial Large Language Models](#general-financial-large-language-models)
   - [Graph Neural Network-based Models](#graph-neural-network-based-models)
   - [Reinforcement Learning-based Models](#reinforcement-learning-based-models)
   - [Transformer-based Models](#transformer-based-models)
@@ -42,12 +46,6 @@ AAAI 2024. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/30383)]
 *Yuxuan Bian, Xuan Ju, Jiangtong Li, Zhijian Xu, Dawei Cheng, Qiang Xu* 
 
 ICML 2024. [[Paper](https://openreview.net/forum?id=Rx9GMufByc)] | [[Codes](https://github.com/yxbian23/aLLM4TS)]
-
-**LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction**
-
-*Meiyun Wang, Kiyoshi Izumi, Hiroki Sakaji*
-
-ACL 2024. [[Paper](https://aclanthology.org/2024.findings-acl.185.pdf)]
 
 **MOMENT: A Family of Open Time-series Foundation Models**
 
@@ -88,41 +86,62 @@ ICLR 2024. [[Paper](https://arxiv.org/abs/2310.01728v1)] | [[Codes](https://gith
 
 ## LLM-based Financial Models
 
+### AI Agents for Finance
+
+  **FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making**
+*Yangyang Yu, Zhiyuan Yao, Haohang Li, Zhiyang Deng, Yupeng Cao, Qianqian Xie, et.al*
+**NeurIPS 2024**. [[Paper](https://arxiv.org/abs/2407.06567)] | [[Codes](https://github.com/The-FinAI/FinCon)]
+
+
+**FinRobot: AI Agent for Equity Research and Valuation with Large Language Models**
+*Tianyu Zhou, Pinqiao Wang, Yilin Wu, Hongyang Yang*
+ICAIF 2024. [[Paper](https://arxiv.org/abs/2411.08804)] | [[Codes](https://github.com/AI4Finance-Foundation/FinRobot)]
+
 **A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist**
-
-*Zhang, Wentao and Zhao, Lingxuan and Xia, Haochong and Sun, Shuo and Sun, Jiaze and Qin, Molei and Li, Xinyi and Zhao, Yuqing and Zhao, Yilei and Cai, Xinyu and Zheng, Longtao and Wang, Xinrun and An, Bo*
-
+*Wentao Zhang, Lingxuan Zhao, Haochong Xia, Shuo Sun, Jiaze Sun, Molei Qin, Bo An, et.al*
 KDD 2024. [[Paper](https://arxiv.org/abs/2402.18485)]
 
+### Stock Prediction and Analysis
+**LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction**
+*Meiyun Wang, Kiyoshi Izumi, Hiroki Sakaji*
+ACL 2024. [[Paper](https://aclanthology.org/2024.findings-acl.185.pdf)]
+
 **Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models**
-
 *Kelvin J.L. Koa, Yunshan Ma,Ritchie Ng, Tat-Seng Chua*
-
 WWW 2024. [[Paper](https://arxiv.org/abs/2402.03659)] | [[Codes](https://github.com/koa-fin/sep)]
 
 **S2IP-LLM: Semantic Space Informed Prompt Learning with LLM forTime Series Forecasting** 
-
 *Zijie Pan, Yushan Jiang, Sahil Garg, Anderson Schneider, Yuriy Nevmyvaka, Dongjin Song* 
-
 ICML 2024. [[Paper](https://arxiv.org/abs/2403.05798)] | [[Codes](https://github.com/panzijie825/S2IP-LLM)]
 
+### Benchmarks and Datasets
+
 **CFGPT: Chinese Financial Assistant with Large Language Model**
-
 *Jiangtong Li, Yuxuan Bian, Guoxuan Wang, Yang Lei, Dawei Cheng, Zhijun Ding, Changjun Jiang*
-
 $2024$. [[Paper](https://arxiv.org/pdf/2309.10654)] | [[Codes](https://github.com/TongjiFinLab/CFBenchmark)]
 
 **RA-CFGPT: Chinese financial assistant with retrieval-augmented large language model**
-
 *Jiangtong Li, Yang Lei, Yuxuan Bian, Dawei Cheng, Zhijun Ding, Changjun Jiang*
-
 FCS 2024. [[Paper](https://link.springer.com/article/10.1007/s11704-024-31018-5)]
 
 **CSPRD: A Financial Policy Retrieval Dataset for Chinese Stock Market**
-
 *Jinyuan Wang, Zhong Wang, Zeyang Zhu, Jinhao Xie, Yong Yu, Yongjian Fei, Yue Huang, Dawei Cheng, Hai Zhao*
-
 DEXA 2024. [[Paper](https://arxiv.org/abs/2309.04389)] | [[Codes](https://github.com/noewangjy/csprd_dataset)]
+
+**FinGPT: Instruction Tuning Benchmark for Open-Source Large Language Models in Financial Datasets**
+*Neng Wang, Hongyang Yang, Christina Dan Wang*
+NeurIPS 2023. [[Paper](https://arxiv.org/abs/2310.04793)] | [[Codes](https://github.com/AI4Finance-Foundation/FinGPT)]
+
+**FinGPT: Democratizing Internet-scale Data for Financial Large Language Models**
+*Xiao-Yang Liu, Guoxuan Wang, Hongyang Yang, Daochen Zha*
+NeurIPS 2023. [[Paper](https://arxiv.org/abs/2307.10485)] | [[Codes](https://github.com/AI4Finance-Foundation/FinGPT)]
+
+
+### General Financial Large Language Models
+
+**BloombergGPT: A Large Language Model for Finance**
+*Shijie Wu, Ozan Irsoy, Steven Lu, Vadim Dabravolski, Mark Dredze, Gideon Mann, et.al*
+$2023$. [[Paper](https://arxiv.org/abs/2303.17564)]
 
 
 ## Graph Neural Network-based Models
