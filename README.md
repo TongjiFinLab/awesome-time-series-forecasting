@@ -3,7 +3,7 @@
 # Awesome Financial Time Series Forecasting Papers and Codes
 
 
-+ **Update**: This repository is actively updated.  `2024/9/24`
++ **Update**: This repository is actively updated.  `2025/01/03`
 + **Collection**: We've compiled a comprehensive list of awesome financial time series forecasting papers and codes.
 + **Collaborate**: If there’s anything missing or if you'd like to contribute, please don't hesitate to get in touch!
 
@@ -29,6 +29,18 @@
 
 ## A. LLM-based Financial Time Series Forecasting Models
 
+**AutoTimes: Autoregressive Time Series Forecasters via Large Language Models**<br>
+*Yong Liu, Guo Qin, Xiangdong Huang, Jianmin Wang, Mingsheng Long*<br>
+NeurIPS 2024. [[Paper](https://arxiv.org/abs/2402.02370)] | [[Codes](https://github.com/thuml/AutoTimes)]
+
+**Are Language Models Actually Useful for Time Series Forecasting?** <br>
+*Mingtian Tan, Mike A. Merrill, Vinayak Gupta, Tim Althoff, Thomas Hartvigsen*<br>
+NeurIPS 2024. [[Paper](https://arxiv.org/abs/2406.16964)] | [[Codes](https://github.com/BennyTMT/LLMsForTimeSeries)]
+
+**Time-FFM: Towards LM-Empowered Federated Foundation Model for Time Series Forecasting**<br>
+*Qingxiang Liu, Xu Liu, Chenghao Liu, Qingsong Wen, Yuxuan Liang* <br>
+NeurIPS 2024. [[Paper](https://arxiv.org/abs/2405.14252)]
+
 **TEMPO: PROMPT-BASED GENERATIVE PRE-TRAINED TRANSFORMER FOR TIME SERIES FORECASTING**<br>
 *Defu Cao, Furong Jia, Sercan O. Arık, Tomas Pfister, Yixiang Zheng, Wen Ye, Yan Liu* <br>
 ICLR 2024. [[Paper](https://openreview.net/forum?id=YH5w12OUuU)] | [[Codes](https://github.com/DC-research/TEMPO)]
@@ -38,7 +50,7 @@ ICLR 2024. [[Paper](https://openreview.net/forum?id=YH5w12OUuU)] | [[Codes](http
 AAAI 2024. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/30383)]
 
 **Multi-Patch Prediction: Adapting Language Models for Time Series Representation Learning**<br>
-*Yuxuan Bian, Xuan Ju, Jiangtong Li, Zhijian Xu, Dawei Cheng, Qiang Xu*<br>
+*Qingxiang Liu, Xu Liu, Chenghao Liu, Qingsong Wen, Yuxuan Liang*<br>
 ICML 2024. [[Paper](https://openreview.net/forum?id=Rx9GMufByc)] | [[Codes](https://github.com/yxbian23/aLLM4TS)]
 
 **MOMENT: A Family of Open Time-series Foundation Models**<br>
@@ -56,14 +68,6 @@ ICML 2024. [[Paper](https://arxiv.org/abs/2402.02368)] | [[Codes](https://github
 **Unified Training of Universal Time Series Forecasting Transformers**<br>
 *Gerald Woo, Chenghao Liu, Akshat Kumar, Caiming Xiong, Silvio Savarese, Doyen Sahoo*
 ICML 2024. [[Paper](https://arxiv.org/abs/2402.02592)] | [[Codes](https://github.com/redoules/moirai)]
-
-**Are Language Models Actually Useful for Time Series Forecasting?** <br>
-*Mingtian Tan, Mike A. Merrill, Vinayak Gupta, Tim Althoff, Thomas Hartvigsen*<br>
-$2024$. [[Paper](https://arxiv.org/abs/2406.16964)]
-
-**TIME-LLM: TIME SERIES FORECASTING BY REPROGRAMMING LARGE LANGUAGE MODELS**<br>
-*Ming Jin, Shiyu Wang, Lintao Ma, Zhixuan Chu, James Y. Zhang, Xiaoming Shi, et.al*<br>
-ICLR 2024. [[Paper](https://arxiv.org/abs/2310.01728v1)] | [[Codes](https://github.com/KimMeen/Time-LLM)]
 
 
 ## B. LLM-based Financial Models
@@ -83,6 +87,11 @@ ICAIF 2024. [[Paper](https://arxiv.org/abs/2411.08804)] | [[Codes](https://githu
 KDD 2024. [[Paper](https://arxiv.org/abs/2402.18485)]
 
 ### Stock Prediction and Analysis
+
+**From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection**<br>
+*Xinlei Wang, Maike Feng, Jing Qiu, Jinjin Gu, Junhua Zhao*<br>
+NeurIPS 2024. [[Paper](https://arxiv.org/abs/2409.17515)] | [[Codes](https://github.com/ameliawong1996/From_News_to_Forecast)]
+
 **LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction**<br>
 *Meiyun Wang, Kiyoshi Izumi, Hiroki Sakaji*<br>
 ACL 2024. [[Paper](https://aclanthology.org/2024.findings-acl.185.pdf)]
@@ -125,6 +134,10 @@ $2023$. [[Paper](https://arxiv.org/abs/2303.17564)]
 
 
 ## C. Graph Neural Network-based Models
+
+**LSR-IGRU: Stock Trend Prediction Based on Long Short-Term Relationships and Improved GRU**<br>
+*Peng Zhu, Yuante Li, Yifan Hu, Qinyuan Liu, Dawei Cheng, Yuqi Liang*<br>
+CIKM 2024. [[Paper](https://arxiv.org/abs/2409.08282)] | [[Codes](https://github.com/ZP1481616577/Baselines_LSR-IGRU)]
 
 **Automatic De-Biased Temporal-Relational Modeling for Stock Investment Recommendation**<br>
 *Weijun Chen, Shun Li, Xipu Yu, Heyuan Wang, Wei Chen, Tengjiao Wang*<br>
@@ -176,6 +189,10 @@ SIGIR 2020. [[Paper](https://dl.acm.org/doi/abs/10.1145/3397271.3401427)]
 
 
 ## D. Reinforcement Learning-based Models
+
+**Cross-contextual Sequential Optimization via Deep Reinforcement Learning for Algorithmic Trading**<br>
+*Kaiming Pan, Yifan Hu, Li Han, Haoyu Sun, Dawei Cheng, Yuqi Liang*<br>
+CIKM 2024. [[Paper](https://dl.acm.org/doi/10.1145/3627673.3680101)]
 
 **Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools**<br>
 *Wentao Zhang, Yilei Zhao, Shuo Sun, Jie Ying, Yonggang Xie, Zitao Song, Xinrun Wang, Bo An*<br>
