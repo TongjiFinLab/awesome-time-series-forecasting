@@ -88,6 +88,10 @@ KDD 2024. [[Paper](https://arxiv.org/abs/2402.18485)]
 
 ### Stock Prediction and Analysis
 
+**StockMixer: A Simple yet Strong MLP-based Architecture for Stock Price Forecasting**<br>
+*Jinyong Fan, Yanyan Shen*<br>
+AAAI 2024. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28681)] | [[Codes](https://github.com/SJTU-DMTai/StockMixer)]
+
 **From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection**<br>
 *Xinlei Wang, Maike Feng, Jing Qiu, Jinjin Gu, Junhua Zhao*<br>
 NeurIPS 2024. [[Paper](https://arxiv.org/abs/2409.17515)] | [[Codes](https://github.com/ameliawong1996/From_News_to_Forecast)]
@@ -190,6 +194,10 @@ SIGIR 2020. [[Paper](https://dl.acm.org/doi/abs/10.1145/3397271.3401427)]
 
 ## D. Reinforcement Learning-based Models
 
+**MacMic: Executing Iceberg Orders via Hierarchical Reinforcement Learning**<br>
+*Hui Niu, Siyuan Li, Jian Li*<br>
+IJCAI 2024. [[Paper](https://www.ijcai.org/proceedings/2024/0664.pdf)]
+
 **Cross-contextual Sequential Optimization via Deep Reinforcement Learning for Algorithmic Trading**<br>
 *Kaiming Pan, Yifan Hu, Li Han, Haoyu Sun, Dawei Cheng, Yuqi Liang*<br>
 CIKM 2024. [[Paper](https://dl.acm.org/doi/10.1145/3627673.3680101)]
@@ -252,6 +260,18 @@ KDD 2021. [[Paper](https://datalab.snu.ac.kr/~ukang/papers/dtmlKDD21.pdf)] | [[C
 
 
 ## F. Generative Methods based Models
+
+**Market-GAN: Adding Control to Financial Market Data Generation with Semantic Context**<br>
+*Haochong Xia, Shuo Sun, Xinrun Wang, Bo An*<br>
+AAAI 2024. [[Paper](https://arxiv.org/abs/2309.07708)] | [[Codes](https://github.com/XiaHaochong98/Market-GAN)]
+
+**RSAP-DFM: Regime-Shifting Adaptive Posterior Dynamic Factor Model for Stock Returns Prediction**<br>
+*Quanzhou Xiang, Zhan Chen, Qi Sun, Rujun Jiang*<br>
+IJCAI 2024. [[Paper](https://www.ijcai.org/proceedings/2024/0676.pdf)]
+
+**Automatic De-Biased Temporal-Relational Modeling for Stock Investment Recommendation**<br>
+*Weijun Chen, Shun Li, Xipu Yu, Heyuan Wang, Wei Chen, Tengjiao Wang*<br>
+IJCAI 2024. [[Paper](https://www.ijcai.org/proceedings/2024/0221.pdf)]
 
 **GENERATIVE LEARNING FOR FINANCIAL TIME SERIES WITH IRREGULAR AND SCALE-INVARIANT PATTERNS**<br>
 *Hongbin Huang, Minghua Chen, and Xiao Qiao*<br>
