@@ -3,7 +3,7 @@
 # Awesome Financial Time Series Forecasting Papers and Codes
 
 
-+ **Update**: This repository is actively updated.  `2025/01/03`
++ **Update**: This repository is actively updated.  `2025/01/14`
 + **Collection**: We've compiled a comprehensive list of awesome financial time series forecasting papers and codes.
 + **Collaborate**: If there’s anything missing or if you'd like to contribute, please don't hesitate to get in touch!
 
@@ -66,13 +66,21 @@ ICLR 2024. [[Paper](https://arxiv.org/abs/2310.01728)] | [[Codes](https://github
 ICML 2024. [[Paper](https://arxiv.org/abs/2402.02368)] | [[Codes](https://github.com/thuml/Large-Time-Series-Model)]
 
 **Unified Training of Universal Time Series Forecasting Transformers**<br>
-*Gerald Woo, Chenghao Liu, Akshat Kumar, Caiming Xiong, Silvio Savarese, Doyen Sahoo*
-ICML 2024. [[Paper](https://arxiv.org/abs/2402.02592)] | [[Codes](https://github.com/redoules/moirai)]
+*Gerald Woo, Chenghao Liu, Akshat Kumar, Caiming Xiong, Silvio Savarese, Doyen Sahoo*<br>
+ICML 2024. [[Paper](https://arxiv.org/abs/2402.02592)]
 
 
 ## B. LLM-based Financial Models
 
 ### AI Agents for Finance
+
+**TradingAgents: Multi-Agents LLM Financial Trading Framework**<br>
+*Yijia Xiao, Edward Sun, Di Luo, Wei Wang*<br>
+$2025$. [[Paper](https://arxiv.org/abs/2412.20138)]
+
+**Automate Strategy Finding with LLM in Quant investment**<br>
+*Zhizhuo Kou, Holam Yu, Jingshu Peng, Lei Chen*<br>
+$2024$. [[Paper](https://arxiv.org/abs/2409.06289)]
 
 **FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making**<br>
 *Yangyang Yu, Zhiyuan Yao, Haohang Li, Zhiyang Deng, Yupeng Cao, Qianqian Xie, et.al*<br>
@@ -204,7 +212,7 @@ CIKM 2024. [[Paper](https://dl.acm.org/doi/10.1145/3627673.3680101)]
 
 **Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools**<br>
 *Wentao Zhang, Yilei Zhao, Shuo Sun, Jie Ying, Yonggang Xie, Zitao Song, Xinrun Wang, Bo An*<br>
-WWW 2024. [[Paper](https://arxiv.org/pdf/2311.10801.pdf)] | [[Code](https://github.com/DVampire/EarnMore)]<br>
+WWW 2024. [[Paper](https://arxiv.org/pdf/2311.10801.pdf)] | [[Codes](https://github.com/DVampire/EarnMore)]<br>
 
 **FreQuant: A Reinforcement-Learning based Adaptive Portfolio Optimization with Multi-frequency Decomposition**<br>
 *Jeon, Jihyeong and Park, Jiwon and Park, Chanhee and Kang, U*<br>
@@ -304,6 +312,10 @@ $2021$. [[Paper](https://arxiv.org/abs/2009.11189)] | [[Codes](https://github.co
 
 
 ## I. Survey
+
+**Large Language Model Agent in Financial Trading: A Survey**<br>
+*Han Ding, Yinheng Li, Junhao Wang, Hang Chen*<br>
+$2024$. [[Paper](https://arxiv.org/abs/2408.06361)]
 
 **Stock Market Prediction via Deep Learning Techniques: A Survey**<br>
 *Jinan Zou, Qingying Zhao, Yang Jiao, Haiyao Cao, Yanxi Liu, Qingsen Yan, Ehsan Abbasnejad, Lingqiao Liu, Javen Qinfeng Shi*<br>
