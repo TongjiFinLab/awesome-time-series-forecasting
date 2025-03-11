@@ -179,10 +179,6 @@ ICDE 2023. [[Paper](https://ieeexplore.ieee.org/document/10184655)] | [[Codes](h
 *Chaoran Cui, Xiaojie Li, Chunyun Zhang, Weili Guan, Meng Wang*<br>
 Pattern Recognition 2023. [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320323004570)] | [[Codes](https://github.com/lixiaojieff/HGTAN)]
 
-**Temporal and Heterogeneous Graph Neural Network for Financial Time Series Prediction**<br>
-*Sheng Xiang, Dawei Cheng, Chencheng Shang, Ying Zhang, Yuqi Liang*<br>
-CIKM 2022. [[Paper](https://arxiv.org/abs/2305.08740)] | [[Codes](https://github.com/TongjiFinLab/THGNN)]
-
 **Financial time series forecasting with multi-modality graph neural network**<br>
 *Dawei Cheng, Fangzhou Yang, Sheng Xiang, Jin Liu*<br>
 Pattern Recognition 2022. [[Paper](https://www.sciencedirect.com/science/article/pii/S003132032100399X)] | [[Codes](https://github.com/finint/MAGNN)]
