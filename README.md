@@ -23,7 +23,8 @@
   - [F. Generative Methods based Models](#f-generative-methods-based-models)
   - [G. Classical Time Series Models](#g-classical-time-series-models)
   - [H. Quantitative Open Sourced Framework](#h-quantitative-open-sourced-framework)
-  - [I. Survey](#i-survey)
+  - [I. Alpha Factor Mining](#i-alpha-factor-mining)
+  - [J. Survey](#j-survey)
   - [All Thanks to Our Contributors :](#all-thanks-to-our-contributors-)
 
 
@@ -74,9 +75,13 @@ ICML 2024. [[Paper](https://arxiv.org/abs/2402.02592)]
 
 ### AI Agents for Finance
 
+**LLM-Based Routing in Mixture of Experts: A Novel Framework for Trading**<br>
+*Kuan-Ming Liu, Ming-Chih Lo*<br>
+AAAI 2025. [[Paper](https://arxiv.org/abs/2501.09636)]
+
 **TradingAgents: Multi-Agents LLM Financial Trading Framework**<br>
 *Yijia Xiao, Edward Sun, Di Luo, Wei Wang*<br>
-$2025$. [[Paper](https://arxiv.org/abs/2412.20138)]
+AAAI 2025. [[Paper](https://arxiv.org/abs/2412.20138)]
 
 **Automate Strategy Finding with LLM in Quant investment**<br>
 *Zhizhuo Kou, Holam Yu, Jingshu Peng, Lei Chen*<br>
@@ -95,6 +100,10 @@ ICAIF 2024. [[Paper](https://arxiv.org/abs/2411.08804)] | [[Codes](https://githu
 KDD 2024. [[Paper](https://arxiv.org/abs/2402.18485)]
 
 ### Stock Prediction and Analysis
+
+**FinLlama: LLM-Based Financial Sentiment Analysis for Algorithmic Trading**<br>
+*Jinyong Fan, Yanyan Shen*<br>
+ICAIF 2024. [[Paper](https://dl.acm.org/doi/10.1145/3677052.3698696)]
 
 **StockMixer: A Simple yet Strong MLP-based Architecture for Stock Price Forecasting**<br>
 *Jinyong Fan, Yanyan Shen*<br>
@@ -265,6 +274,10 @@ KDD 2021. [[Paper](https://datalab.snu.ac.kr/~ukang/papers/dtmlKDD21.pdf)] | [[C
 
 ## F. Generative Methods based Models
 
+**DHMoE: Diffusion Generated Hierarchical Multi-Granular Expertise for Stock Prediction**<br>
+*Weijun Chen, Yanze Wang*<br>
+AAAI 2025. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/33250)]
+
 **Market-GAN: Adding Control to Financial Market Data Generation with Semantic Context**<br>
 *Haochong Xia, Shuo Sun, Xinrun Wang, Bo An*<br>
 AAAI 2024. [[Paper](https://arxiv.org/abs/2309.07708)] | [[Codes](https://github.com/XiaHaochong98/Market-GAN)]
@@ -307,7 +320,12 @@ $2024$. [[Codes](https://github.com/microsoft/RD-Agent)]
 $2021$. [[Paper](https://arxiv.org/abs/2009.11189)] | [[Codes](https://github.com/microsoft/qlib)]
 
 
-## I. Survey
+## I. Alpha Factor Mining
+**AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors**<br>
+*Hao Shi, Weili Song, Xinting Zhang, Jiahe Shi, Cuicui Luo, Xiang Ao, Hamid Arian, Luis Seco*<br>
+AAAI 2025. [[Paper](https://arxiv.org/abs/2406.18394)] | [[Codes](https://github.com/DulyHao/AlphaForge)]
+
+## J. Survey
 
 **Large Language Model Agent in Financial Trading: A Survey**<br>
 *Han Ding, Yinheng Li, Junhao Wang, Hang Chen*<br>
