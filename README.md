@@ -3,7 +3,7 @@
 # Awesome Financial Time Series Forecasting Papers and Codes
 
 
-+ **Update**: This repository is actively updated.  `2025/05/11`
++ **Update**: This repository is actively updated.  `2025/05/15`
 + **Collection**: We've compiled a comprehensive list of awesome financial time series forecasting papers and codes.
 + **Collaborate**: If there’s anything missing or if you'd like to contribute, please don't hesitate to get in touch!
 
@@ -326,6 +326,10 @@ $2021$. [[Paper](https://arxiv.org/abs/2009.11189)] | [[Codes](https://github.co
 AAAI 2025. [[Paper](https://arxiv.org/abs/2406.18394)] | [[Codes](https://github.com/DulyHao/AlphaForge)]
 
 ## J. Survey
+
+**From Deep Learning to LLMs: A survey of AI in Quantitative Investment**<br>
+*Bokai Cao, Saizhuo Wang, Xinyi Lin, Xiaojun Wu, Haohan Zhang, Lionel M Ni, Jian Guo*<br>
+$2025$. [[Paper](https://arxiv.org/pdf/2503.21422?)]
 
 **Large Language Model Agent in Financial Trading: A Survey**<br>
 *Han Ding, Yinheng Li, Junhao Wang, Hang Chen*<br>
