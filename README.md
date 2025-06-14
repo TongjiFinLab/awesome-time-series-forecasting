@@ -345,7 +345,7 @@ $2023$. [[Paper](https://arxiv.org/abs/2212.12717)]
 
 
 
-## All Thanks to Our Contributors:
+## All Thanks to Our Contributors :
 
 <a href="https://github.com/TongjiFinLab/awesome-financial-time-series-forecasting/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=TongjiFinLab/awesome-financial-time-series-forecasting" />
