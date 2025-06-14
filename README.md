@@ -1,6 +1,6 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/TongjiFinLab/awesome-financial-time-series-forecasting) 
 
-# Awesome Financial Time Series Forecasting Papers and Codes
+# Awesome Time Series Forecasting Papers and Codes
 
 
 + **Update**: This repository is actively updated.  `2025/05/15`
