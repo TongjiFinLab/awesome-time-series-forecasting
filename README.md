@@ -271,6 +271,10 @@ KDD 2021. [[Paper](https://arxiv.org/abs/2106.12950)] | [[Codes](https://github.
 *Yoo, Jaemin and Soun, Yejun and Park, Yong-chan and Kang, U*<br>
 KDD 2021. [[Paper](https://datalab.snu.ac.kr/~ukang/papers/dtmlKDD21.pdf)] | [[Codes](https://github.com/simonjisu/DTML-pytorch)]
 
+**TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables**<br>
+*Yuxuan Wang, Haixu Wu, Jiaxiang Dong, Guo Qin, Haoran Zhang, Yong Liu, Yunzhong Qiu, Jianmin Wang, Mingsheng Long*<br>
+[[Paper](https://papers.nips.cc/paper/2024/file/0113ef4642264adc2e6924a3cbbdf532-Paper-Conference.pdf)] | [[Codes](https://github.com/thuml/TimeXer)]
+
 
 ## F. Generative Methods based Models
 
@@ -341,7 +345,7 @@ $2023$. [[Paper](https://arxiv.org/abs/2212.12717)]
 
 
 
-## All Thanks to Our Contributors  :
+## All Thanks to Our Contributors:
 
 <a href="https://github.com/TongjiFinLab/awesome-financial-time-series-forecasting/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=TongjiFinLab/awesome-financial-time-series-forecasting" />
