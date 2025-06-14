@@ -273,7 +273,7 @@ KDD 2021. [[Paper](https://datalab.snu.ac.kr/~ukang/papers/dtmlKDD21.pdf)] | [[C
 
 **TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables**<br>
 *Yuxuan Wang, Haixu Wu, Jiaxiang Dong, Guo Qin, Haoran Zhang, Yong Liu, Yunzhong Qiu, Jianmin Wang, Mingsheng Long*<br>
-[[Paper](https://papers.nips.cc/paper/2024/file/0113ef4642264adc2e6924a3cbbdf532-Paper-Conference.pdf)] | [[Codes](https://github.com/thuml/TimeXer)]
+NIPS 2024. [[Paper](https://papers.nips.cc/paper/2024/file/0113ef4642264adc2e6924a3cbbdf532-Paper-Conference.pdf)] | [[Codes](https://github.com/thuml/TimeXer)]
 
 
 ## F. Generative Methods based Models
