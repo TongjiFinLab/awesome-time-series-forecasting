@@ -6,7 +6,7 @@
 + **Update**: This repository is actively updated.  `2025/05/15`
 + **Collection**: We've compiled a comprehensive list of awesome financial time series forecasting papers and codes.
 + **Collaborate**: If there’s anything missing or if you'd like to contribute, please don't hesitate to get in touch!
-+ **test**: Ywz test this file.
++ **test**: Ywz test this file! 
 
 ## Contents
 
