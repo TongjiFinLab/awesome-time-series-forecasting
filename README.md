@@ -258,6 +258,19 @@ NIPS 2024. [[Paper](https://papers.nips.cc/paper/2024/file/0113ef4642264adc2e692
 *Shengsheng Lin, Weiwei Lin, Xinyi Hu, Wentai Wu, Ruichao Mo, Haocheng Zhong*<br>
 NIPS 2024. [[Paper](https://arxiv.org/pdf/2409.18479v1)] | [[Codes](https://github.com/ACAT-SCUT/CycleNet)]
 
+**SegRNN: Segment Recurrent Neural Network for Long-Term Time Series Forecasting**<br>
+*Shengsheng Lin, Weiwei Lin, Wentai Wu, Feiyu Zhao, Ruichao Mo, Haotong Zhang*<br>
+arXiv 2023. [[Paper](https://arxiv.org/pdf/2308.11200)] | [[Codes](https://github.com/lss-1138/SegRNN)]
+
+**iTransformer: Inverted Transformers Are Effective for Time Series Forecasting**<br>
+*Yong Liu, Tengge Hu, Haoran Zhang, Haixu Wu, Shiyu Wang, Lintao Ma, Mingsheng Long*<br>
+ICLR 2024. [[Paper](https://arxiv.org/pdf/2310.06625)] | [[Codes](https://github.com/thuml/iTransformer)]
+
+**A Time Series is Worth 64 Words: Long-term Forecasting with Transformers**<br>
+*Yuqi Nie, Nam H. Nguyen, Phanwadee Sinthong, Jayant Kalagnanam*<br>
+ICLR 2023. [[Paper](https://arxiv.org/pdf/2211.14730)] | [[Codes](https://github.com/PatchTST/PatchTST)]
+
+
 **MASTER: Market-Guided Stock Transformer for Stock Price Forecasting**<br>
 *Tong Li, Zhaoyang Liu, Yanyan Shen, Xue Wang, Haokun Chen, Sen Huang*<br>
 AAAI 2024. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/27767)] | [[Codes](https://github.com/SJTU-DMTai/MASTER)]
