@@ -246,6 +246,18 @@ CIKM 2022. [[Paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557412)] | [[Cod
 
 ## E. Transformer-based Models
 
+**TimeFilter: Patch-Specific Spatial-Temporal Graph Filtration for Time Series Forecasting**<br>
+*Yifan Hu, Guibin Zhang, Peiyuan Liu, Disen Lan, Naiqi Li, Dawei Cheng, Tao Dai, Shu-Tao Xia, Shirui Pan*<br>
+ICML 2025. [[Paper](https://arxiv.org/pdf/2501.13041v1)] | [[Codes](https://github.com/TROUBADOUR000/TimeFilter)]
+
+**TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables**<br>
+*Yuxuan Wang, Haixu Wu, Jiaxiang Dong, Guo Qin, Haoran Zhang, Yong Liu, Yunzhong Qiu, Jianmin Wang, Mingsheng Long*<br>
+NIPS 2024. [[Paper](https://papers.nips.cc/paper/2024/file/0113ef4642264adc2e6924a3cbbdf532-Paper-Conference.pdf)] | [[Codes](https://github.com/thuml/TimeXer)]
+
+**CycleNet: Enhancing Time Series Forecasting through Modeling Periodic Patterns**<br>
+*Shengsheng Lin, Weiwei Lin, Xinyi Hu, Wentai Wu, Ruichao Mo, Haocheng Zhong*<br>
+NIPS 2024. [[Paper](https://arxiv.org/pdf/2409.18479v1)] | [[Codes](https://github.com/ACAT-SCUT/CycleNet)]
+
 **MASTER: Market-Guided Stock Transformer for Stock Price Forecasting**<br>
 *Tong Li, Zhaoyang Liu, Yanyan Shen, Xue Wang, Haokun Chen, Sen Huang*<br>
 AAAI 2024. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/27767)] | [[Codes](https://github.com/SJTU-DMTai/MASTER)]
@@ -271,9 +283,7 @@ KDD 2021. [[Paper](https://arxiv.org/abs/2106.12950)] | [[Codes](https://github.
 *Yoo, Jaemin and Soun, Yejun and Park, Yong-chan and Kang, U*<br>
 KDD 2021. [[Paper](https://datalab.snu.ac.kr/~ukang/papers/dtmlKDD21.pdf)] | [[Codes](https://github.com/simonjisu/DTML-pytorch)]
 
-**TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables**<br>
-*Yuxuan Wang, Haixu Wu, Jiaxiang Dong, Guo Qin, Haoran Zhang, Yong Liu, Yunzhong Qiu, Jianmin Wang, Mingsheng Long*<br>
-NIPS 2024. [[Paper](https://papers.nips.cc/paper/2024/file/0113ef4642264adc2e6924a3cbbdf532-Paper-Conference.pdf)] | [[Codes](https://github.com/thuml/TimeXer)]
+
 
 
 ## F. Generative Methods based Models
