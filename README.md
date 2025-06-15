@@ -161,6 +161,10 @@ NIPS 2024. [[Paper](https://arxiv.org/pdf/2409.18479v1)] | [[Codes](https://gith
 
 ## D. Convolutional Neural Network-based Models
 
+**Graph WaveNet for Deep Spatial-Temporal Graph Modeling**<br>
+_Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang_<br>
+IJCAI 2019. [[Paper](https://arxiv.org/pdf/1906.00121)] | [[Codes](https://github.com/nnzhan/Graph-WaveNet?tab=readme-ov-file)]
+
 ## E. Recurrent Neural Network-based Models
 
 **SegRNN: Segment Recurrent Neural Network for Long-Term Time Series Forecasting**<br>
