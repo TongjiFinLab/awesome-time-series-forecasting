@@ -1,36 +1,3 @@
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/TongjiFinLab/awesome-financial-time-series-forecasting)
-
-# Awesome Time Series Forecasting Papers and Codes
-
-- **Update**: This repository is actively updated. `2025/06/16`
-- **Collection**: We've compiled a comprehensive list of awesome time series forecasting papers and codes.
-- **Collaborate**: If there’s anything missing or if you'd like to contribute, please don't hesitate to get in touch!
-
-## Contents
-
-- [Awesome Time Series Forecasting Papers and Codes](#awesome-financial-time-series-forecasting-papers-and-codes)
-  - [Contents](#contents)
-  - [A. LLM-based Time Series Forecasting Models](#a-llm-based-financial-time-series-forecasting-models)
-  - [B. LLM-based Models](#b-llm-based-financial-models)
-    - [AI Agents for Finance](#ai-agents-for-finance)
-    - [Stock Prediction and Analysis](#stock-prediction-and-analysis)
-    - [Benchmarks and Datasets](#benchmarks-and-datasets)
-    - [General Large Language Models](#general-financial-large-language-models)
-  - [C. Multilayer Perceptron-based Models](#c-multilayer-perceptron-based-models)
-  - [D. Convolutional Neural Network-based Models](#d-convolutional-neural-network-based-models)
-  - [E. Recurrent Neural Network-based Models](#e-recurrent-neural-network-based-models)
-  - [F. Graph Neural Network-based Models](#f-graph-neural-network-based-models)
-  - [G. Reinforcement Learning-based Models](#g-reinforcement-learning-based-models)
-  - [H. Transformer-based Models](#h-transformer-based-models)
-  - [I. Generative Methods based Models](#i-generative-methods-based-models)
-  - [J. Classical Time Series Models](#j-classical-time-series-models)
-  - [K. Quantitative Open Sourced Framework](#k-quantitative-open-sourced-framework)
-  - [L. Alpha Factor Mining](#l-alpha-factor-mining)
-  - [M. Survey](#m-survey)
-  - [All Thanks to Our Contributors :](#all-thanks-to-our-contributors)
-
-## A. LLM-based Financial Time Series Forecasting Models
-
 **AutoTimes: Autoregressive Time Series Forecasters via Large Language Models**<br>
 _Yong Liu, Guo Qin, Xiangdong Huang, Jianmin Wang, Mingsheng Long_<br>
 NeurIPS 2024. [[Paper](https://arxiv.org/abs/2402.02370)] | [[Codes](https://github.com/thuml/AutoTimes)]
@@ -71,10 +38,6 @@ ICML 2024. [[Paper](https://arxiv.org/abs/2402.02368)] | [[Codes](https://github
 _Gerald Woo, Chenghao Liu, Akshat Kumar, Caiming Xiong, Silvio Savarese, Doyen Sahoo_<br>
 ICML 2024. [[Paper](https://arxiv.org/abs/2402.02592)]
 
-## B. LLM-based Financial Models
-
-### AI Agents for Finance
-
 **LLM-Based Routing in Mixture of Experts: A Novel Framework for Trading**<br>
 _Kuan-Ming Liu, Ming-Chih Lo_<br>
 AAAI 2025. [[Paper](https://arxiv.org/abs/2501.09636)]
@@ -98,8 +61,6 @@ ICAIF 2024. [[Paper](https://arxiv.org/abs/2411.08804)] | [[Codes](https://githu
 **A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist**<br>
 _Wentao Zhang, Lingxuan Zhao, Haochong Xia, Shuo Sun, Jiaze Sun, Molei Qin, Bo An, et.al_<br>
 KDD 2024. [[Paper](https://arxiv.org/abs/2402.18485)]
-
-### Stock Prediction and Analysis
 
 **FinLlama: LLM-Based Financial Sentiment Analysis for Algorithmic Trading**<br>
 _Jinyong Fan, Yanyan Shen_<br>
@@ -125,8 +86,6 @@ WWW 2024. [[Paper](https://arxiv.org/abs/2402.03659)] | [[Codes](https://github.
 _Zijie Pan, Yushan Jiang, Sahil Garg, Anderson Schneider, Yuriy Nevmyvaka, Dongjin Song_<br>
 ICML 2024. [[Paper](https://arxiv.org/abs/2403.05798)] | [[Codes](https://github.com/panzijie825/S2IP-LLM)]
 
-### Benchmarks and Datasets
-
 **CFGPT: Chinese Financial Assistant with Large Language Model**<br>
 _Jiangtong Li, Yuxuan Bian, Guoxuan Wang, Yang Lei, Dawei Cheng, Zhijun Ding, Changjun Jiang_<br>
 $2024$. [[Paper](https://arxiv.org/pdf/2309.10654)] | [[Codes](https://github.com/TongjiFinLab/CFBenchmark)]
@@ -147,13 +106,9 @@ NeurIPS 2023. [[Paper](https://arxiv.org/abs/2310.04793)] | [[Codes](https://git
 _Xiao-Yang Liu, Guoxuan Wang, Hongyang Yang, Daochen Zha_<br>
 NeurIPS 2023. [[Paper](https://arxiv.org/abs/2307.10485)] | [[Codes](https://github.com/AI4Finance-Foundation/FinGPT)]
 
-### General Financial Large Language Models
-
 **BloombergGPT: A Large Language Model for Finance**<br>
 _Shijie Wu, Ozan Irsoy, Steven Lu, Vadim Dabravolski, Mark Dredze, Gideon Mann, et.al_<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2303.17564)]
-
-## C. Multilayer Perceptron-based Models
 
 **Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting**<br>
 _Yifan Hu, Peiyuan Liu, Peng Zhu, Dawei Cheng, Tao Dai_<br>
@@ -171,19 +126,13 @@ AAAI 2023. [[Paper](https://arxiv.org/pdf/2205.13504)] | [[Codes](https://github
 _Abhimanyu Das, Weihao Kong, Andrew Leach, Shaan Mathur, Rajat Sen, Rose Yu_<br>
 TMLR 2023. [[Paper](https://openreview.net/pdf?id=pCbC3aQB5W)] | [[Codes](https://github.com/cure-lab/LTSF-Linear)]
 
-## D. Convolutional Neural Network-based Models
-
 **Graph WaveNet for Deep Spatial-Temporal Graph Modeling**<br>
 _Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Chengqi Zhang_<br>
 IJCAI 2019. [[Paper](https://arxiv.org/pdf/1906.00121)] | [[Codes](https://github.com/nnzhan/Graph-WaveNet?tab=readme-ov-file)]
 
-## E. Recurrent Neural Network-based Models
-
 **SegRNN: Segment Recurrent Neural Network for Long-Term Time Series Forecasting**<br>
 _Shengsheng Lin, Weiwei Lin, Wentai Wu, Feiyu Zhao, Ruichao Mo, Haotong Zhang_<br>
 arXiv 2023. [[Paper](https://arxiv.org/pdf/2308.11200)] | [[Codes](https://github.com/lss-1138/SegRNN)]
-
-## F. Graph Neural Network-based Models
 
 **FinMamba: Market-Aware Graph Enhanced Multi-Level Mamba for Stock Movement Prediction**<br>
 _Yifan Hu, Peiyuan Liu, Yuante Li, Dawei Cheng, Naiqi Li, Tao Dai, Jigang Bao, Shu-tao Xia_<br>
@@ -241,8 +190,6 @@ WWW 2021. [[Paper](https://arxiv.org/abs/2102.07372)]
 _Dawei Cheng, Fangzhou Yang, Xiaoyang Wang, Ying Zhang, Liqing Zhang_<br>
 SIGIR 2020. [[Paper](https://dl.acm.org/doi/abs/10.1145/3397271.3401427)]
 
-## G. Reinforcement Learning-based Models
-
 **MacMic: Executing Iceberg Orders via Hierarchical Reinforcement Learning**<br>
 _Hui Niu, Siyuan Li, Jian Li_<br>
 IJCAI 2024. [[Paper](https://www.ijcai.org/proceedings/2024/0664.pdf)]
@@ -278,8 +225,6 @@ KDD 2023. [[Paper](https://dl.acm.org/doi/abs/10.1145/3580305.3599813)]
 **Optimal Action Space Search: An Effective Deep Reinforcement Learning Method for Algorithmic Trading**<br>
 _Zhongjie Duan, Cen Chen, Dawei Cheng, Yuqi Liang, Weining Qian_<br>
 CIKM 2022. [[Paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557412)] | [[Codes](https://github.com/ECNU-CILAB/OASS)]
-
-## H. Transformer-based Models
 
 **TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables**<br>
 _Yuxuan Wang, Haixu Wu, Jiaxiang Dong, Guo Qin, Haoran Zhang, Yong Liu, Yunzhong Qiu, Jianmin Wang, Mingsheng Long_<br>
@@ -318,8 +263,6 @@ KDD 2021. [[Paper](https://arxiv.org/abs/2106.12950)] | [[Codes](https://github.
 _Yoo, Jaemin and Soun, Yejun and Park, Yong-chan and Kang, U_<br>
 KDD 2021. [[Paper](https://datalab.snu.ac.kr/~ukang/papers/dtmlKDD21.pdf)] | [[Codes](https://github.com/simonjisu/DTML-pytorch)]
 
-## I. Generative Methods based Models
-
 **DHMoE: Diffusion Generated Hierarchical Multi-Granular Expertise for Stock Prediction**<br>
 _Weijun Chen, Yanze Wang_<br>
 AAAI 2025. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/33250)]
@@ -348,13 +291,10 @@ $2024$. [[Paper](https://arxiv.org/abs/2402.06656)]
 _Yitong Duan, Lei Wang, Qizhong Zhang, Jian Li_<br>
 AAAI 2022. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20369)] | [[Codes](https://github.com/harrishe1999/FactorVAE)]
 
-## J. Classical Time Series Models
 
 **Learning connections in financial time series**<br>
 _Ganeshapillai, Gartheeban, John Guttag, and Andrew Lo._<br>
 ICML 2013. [[Paper](http://proceedings.mlr.press/v28/ganeshapillai13.pdf)] | [[Codes]()]
-
-## K. Quantitative Open Sourced Framework
 
 **RD-Agent: Autonomous evolving agents for industrial data-drive R&D**<br>
 _Microsoft Research Asia_<br>
@@ -364,13 +304,9 @@ $2024$. [[Codes](https://github.com/microsoft/RD-Agent)]
 _Microsoft Research Asia_<br>
 $2021$. [[Paper](https://arxiv.org/abs/2009.11189)] | [[Codes](https://github.com/microsoft/qlib)]
 
-## L. Alpha Factor Mining
-
 **AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors**<br>
 _Hao Shi, Weili Song, Xinting Zhang, Jiahe Shi, Cuicui Luo, Xiang Ao, Hamid Arian, Luis Seco_<br>
 AAAI 2025. [[Paper](https://arxiv.org/abs/2406.18394)] | [[Codes](https://github.com/DulyHao/AlphaForge)]
-
-## M. Survey
 
 **From Deep Learning to LLMs: A survey of AI in Quantitative Investment**<br>
 _Bokai Cao, Saizhuo Wang, Xinyi Lin, Xiaojun Wu, Haohan Zhang, Lionel M Ni, Jian Guo_<br>
@@ -383,9 +319,3 @@ arxiv 2024. [[Paper](https://arxiv.org/abs/2408.06361)]
 **Stock Market Prediction via Deep Learning Techniques: A Survey**<br>
 _Jinan Zou, Qingying Zhao, Yang Jiao, Haiyao Cao, Yanxi Liu, Qingsen Yan, Ehsan Abbasnejad, Lingqiao Liu, Javen Qinfeng Shi_<br>
 arxiv 2023. [[Paper](https://arxiv.org/abs/2212.12717)]
-
-## All Thanks to Our Contributors:
-
-<a href="https://github.com/TongjiFinLab/awesome-financial-time-series-forecasting/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=TongjiFinLab/awesome-financial-time-series-forecasting" />
-</a>
