@@ -2,7 +2,7 @@
 
 # Awesome Time Series Forecasting Papers and Codes
 
-- **Update**: This repository is actively updated. `2025/06/16`
+- **Update**: This repository is actively updated. `2025/06/18`
 - **Collection**: We've compiled a comprehensive list of awesome time series forecasting papers and codes.
 - **Collaborate**: If there’s anything missing or if you'd like to contribute, please don't hesitate to get in touch!
 
