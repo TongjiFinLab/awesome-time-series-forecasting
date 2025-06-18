@@ -358,11 +358,11 @@ ICML 2013. [[Paper](http://proceedings.mlr.press/v28/ganeshapillai13.pdf)] | [[C
 
 **RD-Agent: Autonomous evolving agents for industrial data-drive R&D**<br>
 _Microsoft Research Asia_<br>
-$2024$. [[Codes](https://github.com/microsoft/RD-Agent)]
+2024. [[Codes](https://github.com/microsoft/RD-Agent)]
 
 **Qlib: An AI-oriented Quantitative Investment Platform**<br>
 _Microsoft Research Asia_<br>
-$2021$. [[Paper](https://arxiv.org/abs/2009.11189)] | [[Codes](https://github.com/microsoft/qlib)]
+2021. [[Paper](https://arxiv.org/abs/2009.11189)] | [[Codes](https://github.com/microsoft/qlib)]
 
 ## L. Alpha Factor Mining
 
