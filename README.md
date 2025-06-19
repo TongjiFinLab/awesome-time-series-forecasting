@@ -3,13 +3,13 @@
 # Awesome Time Series Forecasting Papers and Codes
 
 
-+ **Update**: This repository is actively updated.  `2025/05/15`
++ **Update**: This repository is actively updated.  `2025/06/19`
 + **Collection**: We've compiled a comprehensive list of awesome financial time series forecasting papers and codes.
 + **Collaborate**: If there’s anything missing or if you'd like to contribute, please don't hesitate to get in touch!
 
 ## Contents
 
-- [Awesome Financial Time Series Forecasting Papers and Codes](#awesome-financial-time-series-forecasting-papers-and-codes)
+- [Awesome Time Series Forecasting Papers and Codes](#awesome-time-series-forecasting-papers-and-codes)
   - [Contents](#contents)
   - [A. LLM-based Financial Time Series Forecasting Models](#a-llm-based-financial-time-series-forecasting-models)
   - [B. LLM-based Financial Models](#b-llm-based-financial-models)
@@ -75,17 +75,21 @@ ICML 2024. [[Paper](https://arxiv.org/abs/2402.02592)]
 
 ### AI Agents for Finance
 
+**R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization**<br>
+*Yuante Li, Xu Yang, Xiao Yang, Minrui Xu, Xisen Wang, Weiqing Liu, Jiang Bian*<br>
+$2025$. [[Paper](https://arxiv.org/abs/2505.15155)] | [[Codes1](https://github.com/microsoft/RD-Agent)], [[Codes2](https://github.com/microsoft/qlib)]
+
 **LLM-Based Routing in Mixture of Experts: A Novel Framework for Trading**<br>
 *Kuan-Ming Liu, Ming-Chih Lo*<br>
 AAAI 2025. [[Paper](https://arxiv.org/abs/2501.09636)]
 
 **TradingAgents: Multi-Agents LLM Financial Trading Framework**<br>
 *Yijia Xiao, Edward Sun, Di Luo, Wei Wang*<br>
-AAAI 2025. [[Paper](https://arxiv.org/abs/2412.20138)]
+AAAI 2025. [[Paper](https://arxiv.org/abs/2412.20138)] | [[Codes](https://github.com/TauricResearch/TradingAgents)]
 
 **Automate Strategy Finding with LLM in Quant investment**<br>
 *Zhizhuo Kou, Holam Yu, Jingshu Peng, Lei Chen*<br>
-$2024$. [[Paper](https://arxiv.org/abs/2409.06289)]
+$2024$. [[Paper](https://arxiv.org/abs/2409.06289)] | [[Codes](https://github.com/kouzhizhuo/Automate-Strategy-Finding-with-LLM-in-Quant-investment)]
 
 **FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making**<br>
 *Yangyang Yu, Zhiyuan Yao, Haohang Li, Zhiyang Deng, Yupeng Cao, Qianqian Xie, et.al*<br>
