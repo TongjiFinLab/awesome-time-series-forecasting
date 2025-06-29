@@ -28,7 +28,7 @@
   - [All Thanks to Our Contributors :](#all-thanks-to-our-contributors-)
 
 
-## A. LLM-based Financial Time Series Forecasting Models
+## A. LLM-based Time Series Forecasting Models
 
 **AutoTimes: Autoregressive Time Series Forecasters via Large Language Models**<br>
 *Yong Liu, Guo Qin, Xiangdong Huang, Jianmin Wang, Mingsheng Long*<br>
