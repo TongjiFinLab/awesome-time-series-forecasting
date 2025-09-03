@@ -206,10 +206,14 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   ICLR 2024.  
   [Paper](https://openreview.net/pdf?id=Tuh4nZVb0g)
 
+
 - **TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting**  
   Defu Cao, Furong Jia, Sercan Ö. Arik, Tomas Pfister, Yixiang Zheng, Wen Ye, Yan Liu  
   ICLR 2024.  
   [Paper](https://arxiv.org/abs/2310.04948) | [Code](https://github.com/DC-research/TEMPO)
+
+## A. LLM-based Time Series Forecasting Models
+
 
 - **S²IP-LLM: Semantic space informed prompt learning with LLM for time series forecasting**  
   Zijie Pan, Yushan Jiang, Sahil Garg, Anderson Schneider, Yuriy Nevmyvaka, Dongjin Song  
