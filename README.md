@@ -6,8 +6,8 @@
 **📈 A Comprehensive Collection of Papers, Codes & Resources for Time Series Analysis**
 
 [![Paper Count](https://img.shields.io/badge/Papers-200+-blue)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
-[![Last Update](https://img.shields.io/badge/Last%20Update-January%202025-green)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
-[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/TongjiFinLab/awesome-time-series-forecasting/graphs/commit-activity)
+[![Last Update](https://img.shields.io/badge/Last%20Update-October%202025-green)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
+[![Stars](https://img.shields.io/badge/Stars%3F-180+-green.svg)](https://github.com/TongjiFinLab/awesome-time-series-forecasting/graphs/commit-activity)
 
 </div>
 
@@ -24,11 +24,19 @@
 **🔥 Collaborate:**  
 If you notice any missing content or would like to contribute, please feel free to reach out!
 
-> ✨ **Recent Update (August 27, 2025)**
+> ✨ **Recent Update (October 17, 2025)**
 >
-> 💎 **1. New Survey Released**
+> 💎 **1. Our work was accepted by TKDE**
 >
-> We are excited to announce our latest survey: ***"Large Language Models for Time Series Analysis: A Survey"***, which highlights these key contributions:
+> We are excited to announce that our paper ***"Financial Time Series Prediction With Multi-Granularity Graph Augmented Learning"*** has been accepted for publication in **IEEE Transactions on Knowledge and Data Engineering (TKDE)** !
+> 
+> 💎 **2. New Survey Released**
+>
+> We are excited to announce our latest survey: ***"Large Language Models for Time Series Analysis: Methodologies, Applications, and Emerging Challenges"***.
+>
+> > 📄 **The PDF version of this paper can be found in the `papers/` directory of this project**
+>
+> This survey highlights these key contributions:
 >
 > - **Roles-Based Taxonomy & Unified Workflows**  
   We systematically categorize the roles assumed by LLMs in TSA and abstract unified workflows for each role, clarifying their core functionalities and diverse contributions to the field.
@@ -44,6 +52,7 @@ If you notice any missing content or would like to contribute, please feel free 
 > We have restructured this repository for improved clarity and usability:
 > - **Section A: Large Language Models** — Dedicated to resources and research related to LLMs for TSA.
 > - **Section B: Foundation Models** — Focused on foundation models for TSA.
+> 
 >
 > 💎 **3. Literature Update**
 >
@@ -72,6 +81,10 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 - [H. Quantitative Open Sourced Framework](#h-quantitative-open-sourced-framework)
 - [I. Alpha Factor Mining](#i-alpha-factor-mining)
 - [J. Survey](#j-survey)
+- [📚 **Citation**](#-citation)
+  - [👥 **Contributors**](#-contributors)
+  - [📄 **License**](#-license)
+  - [⭐ **Star History**](#-star-history)
 
 ## A. Large Language Models
 
@@ -79,7 +92,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   <img src="figs/framework.png" alt="Application" width=800/>
 </div>
 <div align="center">
-  <b>Figure 1: Frameworks of our new work "Large Language Models for Time Series Analysis: A Survey".</b>
+  <b>Figure 1: Frameworks of our new work "Large Language Models for Time Series Analysis: Methodologies, Applications, and Emerging Challenges".</b>
 </div>
 
 ### Taxonomy of Roles and Unified Workflows
@@ -118,7 +131,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 |**LAMP**|Forecasting|HC|-|`Text-based`|-|-|❌|
 |**LA-GCN**|Forecasting|HC|`Digit-level`|`Text-based`|-|-|❌|
 |**Chen et al.**|Forecasting|HC|-|`Text-based`|-|-|❌|
-|**Park et al.**|Anomaly Etection|HC|-|`Text-based`|-|-|❌|
+|**Park et al.**|Anomaly Detection|HC|-|`Text-based`|-|-|❌|
 |**Zuo et al.**|Forecasting|HC|-|`Text-based`|-|-|❌|
 |**DualSG**|Forecasting|HC|-|`Text-based`|-|`Exogenous(Direct)`|[✅](https://github.com/BenchCouncil/DualSG)|
 
@@ -1063,11 +1076,12 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 <summary>📋 <strong>BibTeX Citations</strong></summary>
 
 ```bibtex
-@article{newSurvey,
-  title={Large Language Models for Time Series Analysis: A Survey}, 
-  author={Wangzhi Yu, Dawei Cheng, Lizhao Zhu and Changjun Jiang},
-  journal={arXiv preprint arXiv:xxx},
-  year={2025}
+@article{zhu2025financial,
+  title={Financial Time Series Prediction With Multi-Granularity Graph Augmented Learning},
+  author={Zhu, Peng and Li, Yuante and Liu, Qinyuan and Cheng, Dawei and Jiang, Changjun},
+  journal={TKDE},
+  year={2025},
+  publisher={IEEE}
 }
 
 @article{hu2025fintsb,
@@ -1088,7 +1102,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   hu2025timefilter,
   title={TimeFilter: Patch-Specific Spatial-Temporal Graph Filtration for Time Series Forecasting},
   author={Yifan Hu and Guibin Zhang and Peiyuan Liu and Disen Lan and Naiqi Li and Dawei Cheng and Tao Dai and Shu-Tao Xia and Shirui Pan},
-  booktitle={Forty-second International Conference on Machine Learning},
+  booktitle={ICML},
   year={2025},
   url={https://openreview.net/forum?id=490VcNtjh7}
 }
@@ -1096,14 +1110,14 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 @inproceedings{hu2025adaptive,
   title={Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting},
   author={Hu, Yifan and Liu, Peiyuan and Zhu, Peng and Cheng, Dawei and Dai, Tao},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  booktitle={AAAI},
   year={2025}
 }
 
 @inproceedings{bian2024multi,
   title={Multi-patch prediction: adapting language models for time series representation learning},
   author={Bian, Yuxuan and Ju, Xuan and Li, Jiangtong and Xu, Zhijian and Cheng, Dawei and Xu, Qiang},
-  booktitle={Forty-first International Conference on Machine Learning},
+  booktitle={ICML},
   year={2024}
 }
 ```
