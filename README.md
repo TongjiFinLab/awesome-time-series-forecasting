@@ -1076,6 +1076,13 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 <summary>📋 <strong>BibTeX Citations</strong></summary>
 
 ```bibtex
+@article{li2025r,
+  title={R\&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization},
+  author={Li, Yuante and Yang, Xu and Yang, Xiao and Xu, Minrui and Wang, Xisen and Liu, Weiqing and Bian, Jiang},
+  booktitle={NeurIPS},
+  year={2025}
+}
+
 @article{zhu2025financial,
   title={Financial Time Series Prediction With Multi-Granularity Graph Augmented Learning}, 
   author={Zhu, Peng and Li, Yuante and Liu, Qinyuan and Cheng, Dawei and Jiang, Changjun},
