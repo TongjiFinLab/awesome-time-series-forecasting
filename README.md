@@ -1,20 +1,42 @@
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/TongjiFinLab/awesome-financial-time-series-forecasting) 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/TongjiFinLab/awesome-financial-time-series-forecasting)
+<div align="center">
 
-# Awesome Papers and Codes for Time Series Analysis <!-- omit in toc -->
+# 🚀 Awesome Time Series Analysis <!-- omit in toc -->
 
-🎉 This project collects and organizes high-quality papers and codes for Time Series Analysis (TSA).
+**📈 A Comprehensive Collection of Papers, Codes & Resources for Time Series Analysis**
 
-**🔥 Scope:**  
-This collection encompasses key tasks in TSA, including forecasting, classification, imputation, and anomaly detection. It features a broad spectrum of models, such as Large Language Models (LLMs), Foundation Models (FMs), Graph Neural Networks (GNNs), among others. The included methods are applicable to a wide range of domains, including but not limited to finance, healthcare, energy, and transportation.
+[![Paper Count](https://img.shields.io/badge/Papers-200+-blue)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
+[![Last Update](https://img.shields.io/badge/Last%20Update-October%202025-green)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
+[![Stars](https://img.shields.io/badge/Stars%3F-180+-green.svg)](https://github.com/TongjiFinLab/awesome-time-series-forecasting/graphs/commit-activity)
 
-**🔥 Collaborate:**  
+</div>
+
+---
+
+🔥 This project collects and organizes **high-quality papers and codes** for **Time Series Analysis (TSA)**, featuring the latest advances in *LLMs*, *Foundation Models*, *Graph Neural Networks*, and more!
+
+### ✨ **Key Features**
+- 🎯 **Comprehensive Coverage**: Forecasting, Classification, Imputation, Anomaly Detection
+- 🏢 **Multi-domain Applications**: Finance, Healthcare, Energy, Transportation
+- 📊 **Systematic Organization**: Well-structured taxonomy and unified workflows
+- 🔄 **Regular Updates**: Keep up with the latest research developments
+
+**🔥 Collaboration:**  
 If you notice any missing content or would like to contribute, please feel free to reach out!
 
-> ✨ **Recent Update (August 27, 2025)**
+> ✨ **Recent Update (October 17, 2025)**
 >
-> 💎 **1. New Survey Released**
+> 💎 **1. Our work was accepted by TKDE**
 >
-> We are excited to announce our latest survey: ***"Large Language Models for Time Series Analysis: A Survey"***, which highlights these key contributions:
+> We are excited to announce that our paper ***"Financial Time Series Prediction With Multi-Granularity Graph Augmented Learning"*** has been accepted for publication in **IEEE Transactions on Knowledge and Data Engineering (TKDE)** !
+> 
+> 💎 **2. New Survey Released**
+>
+> We are excited to announce our latest survey: ***"Large Language Models for Time Series Analysis: Methodologies, Applications, and Emerging Challenges"***.
+>
+> > 📄 **The PDF version of this paper can be found in the `papers/` directory of this project**
+>
+> This survey highlights these key contributions:
 >
 > - **Roles-Based Taxonomy & Unified Workflows**  
   We systematically categorize the roles assumed by LLMs in TSA and abstract unified workflows for each role, clarifying their core functionalities and diverse contributions to the field.
@@ -30,6 +52,7 @@ If you notice any missing content or would like to contribute, please feel free 
 > We have restructured this repository for improved clarity and usability:
 > - **Section A: Large Language Models** — Dedicated to resources and research related to LLMs for TSA.
 > - **Section B: Foundation Models** — Focused on foundation models for TSA.
+> 
 >
 > 💎 **3. Literature Update**
 >
@@ -58,8 +81,19 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 - [H. Quantitative Open Sourced Framework](#h-quantitative-open-sourced-framework)
 - [I. Alpha Factor Mining](#i-alpha-factor-mining)
 - [J. Survey](#j-survey)
+- [📚 **Citation**](#-citation)
+  - [👥 **Contributors**](#-contributors)
+  - [📄 **License**](#-license)
+  - [⭐ **Star History**](#-star-history)
 
 ## A. Large Language Models
+
+<div align="center">
+  <img src="figs/framework.png" alt="Application" width=800/>
+</div>
+<div align="center">
+  <b>Figure 1: Frameworks of our new work "Large Language Models for Time Series Analysis: Methodologies, Applications, and Emerging Challenges".</b>
+</div>
 
 ### Taxonomy of Roles and Unified Workflows
 
@@ -97,7 +131,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 |**LAMP**|Forecasting|HC|-|`Text-based`|-|-|❌|
 |**LA-GCN**|Forecasting|HC|`Digit-level`|`Text-based`|-|-|❌|
 |**Chen et al.**|Forecasting|HC|-|`Text-based`|-|-|❌|
-|**Park et al.**|Anomaly Etection|HC|-|`Text-based`|-|-|❌|
+|**Park et al.**|Anomaly Detection|HC|-|`Text-based`|-|-|❌|
 |**Zuo et al.**|Forecasting|HC|-|`Text-based`|-|-|❌|
 |**DualSG**|Forecasting|HC|-|`Text-based`|-|`Exogenous(Direct)`|[✅](https://github.com/BenchCouncil/DualSG)|
 
@@ -211,9 +245,6 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   Defu Cao, Furong Jia, Sercan Ö. Arik, Tomas Pfister, Yixiang Zheng, Wen Ye, Yan Liu  
   ICLR 2024.  
   [Paper](https://arxiv.org/abs/2310.04948) | [Code](https://github.com/DC-research/TEMPO)
-
-## A. LLM-based Time Series Forecasting Models
-
 
 - **S²IP-LLM: Semantic space informed prompt learning with LLM for time series forecasting**  
   Zijie Pan, Yushan Jiang, Sahil Garg, Anderson Schneider, Yuriy Nevmyvaka, Dongjin Song  
@@ -475,7 +506,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 ### Application
 
 <div align="center">
-  <img src="figs/application_figs.png" alt="Application" width=800/>
+  <img src="figs/application.png" alt="Application" width=800/>
 </div>
 
 <div align="center">
@@ -1035,8 +1066,95 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   arXiv, 2023.  
   [Paper](https://doi.org/10.48550/arXiv.2310.10196)
 
-## All Thanks to Our Contributors <!-- omit in toc -->
+
+## 📚 **Citation**
+
+**🎓 If you find this repository helpful for your research, please consider citing our work:**
+
+
+<details open>
+<summary>📋 <strong>BibTeX Citations</strong></summary>
+
+```bibtex
+@article{li2025r,
+  title={R\&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization},
+  author={Li, Yuante and Yang, Xu and Yang, Xiao and Xu, Minrui and Wang, Xisen and Liu, Weiqing and Bian, Jiang},
+  booktitle={NeurIPS},
+  year={2025}
+}
+
+@article{zhu2025financial,
+  title={Financial Time Series Prediction With Multi-Granularity Graph Augmented Learning}, 
+  author={Zhu, Peng and Li, Yuante and Liu, Qinyuan and Cheng, Dawei and Jiang, Changjun},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  year={2025},
+}
+
+@article{hu2025fintsb,
+  title={FinTSB: A Comprehensive and Practical Benchmark for Financial Time Series Forecasting}, 
+  author={Yifan Hu and Yuante Li and Peiyuan Liu and Yuxia Zhu and Naiqi Li and Tao Dai and Shu-tao Xia and Dawei Cheng and Changjun Jiang},
+  journal={arXiv preprint arXiv:2502.18834},
+  year={2025},
+}
+
+@article{hu2025finmamba,
+  title={FinMamba: Market-Aware Graph Enhanced Multi-Level Mamba for Stock Movement Prediction}, 
+  author={Hu, Yifan and Liu, Peiyuan and Li, Yuante and Cheng, Dawei and Li, Naiqi and Dai, Tao and Bao, Jigang and Xia Shu-Tao},
+  journal={arXiv preprint arXiv:2502.06707},
+  year={2025}
+}
+
+@inproceedings{
+  hu2025timefilter,
+  title={TimeFilter: Patch-Specific Spatial-Temporal Graph Filtration for Time Series Forecasting},
+  author={Yifan Hu and Guibin Zhang and Peiyuan Liu and Disen Lan and Naiqi Li and Dawei Cheng and Tao Dai and Shu-Tao Xia and Shirui Pan},
+  booktitle={ICML},
+  year={2025},
+  url={https://openreview.net/forum?id=490VcNtjh7}
+}
+
+@inproceedings{hu2025adaptive,
+  title={Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting},
+  author={Hu, Yifan and Liu, Peiyuan and Zhu, Peng and Cheng, Dawei and Dai, Tao},
+  booktitle={AAAI},
+  year={2025}
+}
+
+@inproceedings{bian2024multi,
+  title={Multi-patch prediction: adapting language models for time series representation learning},
+  author={Bian, Yuxuan and Ju, Xuan and Li, Jiangtong and Xu, Zhijian and Cheng, Dawei and Xu, Qiang},
+  booktitle={ICML},
+  year={2024}
+}
+```
+
+</details>
+
+---
+
+### 👥 **Contributors**
+
+
+**Thanks to all our amazing contributors who make this project possible! 🎉**
 
 <a href="https://github.com/TongjiFinLab/awesome-financial-time-series-forecasting/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=TongjiFinLab/awesome-financial-time-series-forecasting" />
 </a>
+
+
+### 📄 **License**
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+### ⭐ **Star History**
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=TongjiFinLab/awesome-time-series-forecasting&type=Date)](https://star-history.com/#TongjiFinLab/awesome-time-series-forecasting&Date)
+
+</div>
+
+---
+
+
+🌟 Don't forget to star this repo if you find it useful! 🌟. Made with ❤️ by the research community.
