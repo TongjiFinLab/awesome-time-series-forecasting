@@ -5,8 +5,8 @@
 
 **📈 A Comprehensive Collection of Papers, Codes & Resources for Time Series Analysis**
 
-[![Paper Count](https://img.shields.io/badge/Papers-200+-blue)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
-[![Last Update](https://img.shields.io/badge/Last%20Update-October%202025-green)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
+[![Paper Count](https://img.shields.io/badge/Papers-240+-blue)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
+[![Last Update](https://img.shields.io/badge/Last%20Update-April%202026-green)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
 [![Stars](https://img.shields.io/badge/Stars%3F-180+-green.svg)](https://github.com/TongjiFinLab/awesome-time-series-forecasting/graphs/commit-activity)
 
 </div>
@@ -24,7 +24,19 @@
 **🔥 Collaboration:**  
 If you notice any missing content or would like to contribute, please feel free to reach out!
 
-> ✨ **Recent Update (October 17, 2025)**
+> ✨ **Recent Update (April 5, 2026)**
+>
+> We have added **~40 new papers** covering the latest advances from **ICLR 2026, ICML 2025, NeurIPS 2025, KDD 2025/2026, AAAI 2026, IJCAI 2025**, and more. Key additions include:
+> - New LLM-based methods: SE-LLM (ICLR 2026), FreqLLM (IJCAI 2025), Conversational TSFMs (ICLR 2026)
+> - Foundation models: Chronos-2, Moirai 2.0, Aurora (ICLR 2026), TimeDiT (KDD 2025), TimeHF, Toto
+> - New Transformer architectures: MoVE (ICLR 2026), DUET (KDD 2025), TFPS (NeurIPS 2025), TimeDistill (KDD 2026)
+> - Vision-Language models for TS: VLM4TS (AAAI 2026 Oral), OccamVTS (AAAI 2026)
+> - Multiple new surveys and benchmarks
+>
+> ---
+>
+> <details>
+> <summary>📜 <strong>Previous Update (October 17, 2025)</strong></summary>
 >
 > 💎 **1. Our work was accepted by TKDE**
 >
@@ -47,16 +59,18 @@ If you notice any missing content or would like to contribute, please feel free 
 > - **Limitations & Future Directions**  
   We critically examine the key limitations and open challenges in deploying LLMs for TSA and propose prospective research directions to address these challenges and advance the field.
 >
-> 💎 **2. Project Structure Update**
+> 💎 **3. Project Structure Update**
 >
 > We have restructured this repository for improved clarity and usability:
 > - **Section A: Large Language Models** — Dedicated to resources and research related to LLMs for TSA.
 > - **Section B: Foundation Models** — Focused on foundation models for TSA.
 > 
 >
-> 💎 **3. Literature Update**
+> 💎 **4. Literature Update**
 >
 > We have updated the literature collection, adding several outstanding and recent papers to further enrich the repository.
+>
+> </details>
 
 If you find this project helpful, please don't forget to give it a ⭐ Star to show your support. Thank you!
 
@@ -134,6 +148,12 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 |**Park et al.**|Anomaly Detection|HC|-|`Text-based`|-|-|❌|
 |**Zuo et al.**|Forecasting|HC|-|`Text-based`|-|-|❌|
 |**DualSG**|Forecasting|HC|-|`Text-based`|-|`Exogenous(Direct)`|[✅](https://github.com/BenchCouncil/DualSG)|
+|**SE-LLM**|Forecasting|IE|`Patch-level`|`Vector-based`|`Emb-Injected`|`Exogenous(Direct)`|❌|
+|**FreqLLM**|Forecasting|IE|`Patch-level`|`Vector-based`|`Distributional`|`Exogenous(Direct)`|[✅](https://github.com/biya0105/FreqLLM)|
+|**LLM-TPF**|Forecasting|IE|`Patch-level`|`Vector-based`|`Distributional`|`Exogenous(Direct)`|❌|
+|**LLM4FTS**|Forecasting|IE+E|`Patch-level`|`Text-based`|-|`Exogenous(Direct)`|❌|
+|**VLM4TS**|Anomaly Detection|E|-|`Text-based`|-|-|[✅](https://github.com/ZLHe0/VLM4TS)|
+|**OccamVTS**|Forecasting|E|-|-|-|`Exogenous(Direct)`|❌|
 
 </sub></div>
 
@@ -187,6 +207,20 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   WWW 2024.  
   [Paper](https://dl.acm.org/doi/pdf/10.1145/3589334.3645434) | [Code](https://github.com/liuxu77/UniTime)
 
+- **SE-LLM: Semantic-Enhanced Time-Series Forecasting via Large Language Models**  
+  ICLR 2026.  
+  [Paper](https://arxiv.org/abs/2508.07697)
+
+- **FreqLLM: Frequency-Aware Large Language Models for Time Series Forecasting**  
+  Shunnan Wang et al.  
+  IJCAI 2025.  
+  [Paper](https://www.ijcai.org/proceedings/2025/377) | [Code](https://github.com/biya0105/FreqLLM)
+
+- **LLM-TPF: Multiscale Temporal Periodicity-Semantic Fusion LLMs for Time Series Forecasting**  
+  Qihong Pan et al.  
+  IJCAI 2025.  
+  [Paper](https://www.ijcai.org/proceedings/2025/671)
+
 ###### Bin-level Tokenization <!-- omit in toc -->
 
 - **Chronos: Learning the Language of Time Series**  
@@ -227,6 +261,15 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   Qianqian Xie, Weiguang Han, Yanzhao Lai, Min Peng, Jimin Huang  
   arXiv 2023.  
   [Paper](https://arxiv.org/pdf/2304.05351)
+
+- **Conversational Time Series Foundation Models**  
+  ICLR 2026.  
+  [Paper](https://openreview.net/forum?id=1oGQCCmydB)
+
+- **Rethinking the Role of LLMs in Time Series Forecasting**  
+  Xin Qiu et al.  
+  arXiv 2026.  
+  [Paper](https://arxiv.org/abs/2602.14744)
 
 ###### Vector-based (Soft) Prompt <!-- omit in toc -->
 
@@ -439,6 +482,19 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   AAAI, 2024.  
   [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/30383)
 
+- **VLM4TS: Harnessing Vision-Language Models for Time Series Anomaly Detection**  
+  Zelin He et al.  
+  AAAI 2026 (Oral).  
+  [Paper](https://arxiv.org/abs/2506.06836) | [Code](https://github.com/ZLHe0/VLM4TS)
+
+- **OccamVTS: Distilling Vision Models to 1% Parameters for Time Series Forecasting**  
+  AAAI 2026.  
+  [Paper](https://arxiv.org/abs/2508.01727)
+
+- **UniCast: A Unified Framework for Instance-Conditioned Multimodal Time-Series Forecasting**  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2508.11954)
+
 ##### Enhancement of Interpretability <!-- omit in toc -->
 
 - **Can "Slow-thinking" LLMs Make Time Series Predictions More Reliable? Enhancing LLM-based Time Series Forecasting via Chain-of-Thought Prompting**  
@@ -573,6 +629,19 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   Shengkun Wang, Taoran Ji, Linhan Wang, Yanshen Sun, Shang-Ching Liu, Amit Kumar, Chang-Tien Lu  
   arXiv 2024.  
   [Paper](https://arxiv.org/pdf/2409.08281?)
+
+- **LLM4FTS: Enhancing Large Language Models for Financial Time Series Prediction**  
+  Dawei Cheng et al.  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2505.02880)
+
+- **Retrieval-augmented Large Language Models for Financial Time Series Forecasting**  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2502.05878)
+
+- **Dual Adaptation of Time-Series Foundation Models for Financial Forecasting**  
+  ICML 2025.  
+  [Paper](https://icml.cc/virtual/2025/47503)
 
 #### Traffic
 
@@ -780,7 +849,79 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   ICML, 2024.  
   [Paper](https://arxiv.org/abs/2402.02592) | [Code](https://github.com/SalesforceAIResearch/uni2ts)
 
+- **Chronos-2: From Univariate to Universal Forecasting**  
+  Abdul Fatir Ansari et al.  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2510.15821) | [Code](https://github.com/amazon-science/chronos-forecasting)
+
+- **ChronosX: Adapting Pretrained Time Series Models with Exogenous Variables**  
+  Sebastian Pineda Arango et al.  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2503.12107)
+
+- **Moirai 2.0: When Less Is More for Time Series Forecasting**  
+  Salesforce AI Research  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2511.11698)
+
+- **Aurora: Towards Universal Generative Multimodal Time Series Forecasting**  
+  ICLR 2026.  
+  [Paper](https://arxiv.org/abs/2509.22295) | [Code](https://github.com/decisionintelligence/Aurora)
+
+- **TimeDiT: General-purpose Diffusion Transformers for Time Series Foundation Model**  
+  KDD 2025.  
+  [Paper](https://arxiv.org/abs/2409.02322)
+
+- **Toto: Time Series Optimized Transformer for Observability**  
+  Datadog  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2505.14766) | [Code](https://github.com/DataDog/toto)
+
+- **TimeHF: Billion-Scale Time Series Models Guided by Human Feedback**  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2501.15942)
+
+- **Xihe: Scalable Zero-Shot Time Series Learner via Hierarchical Interleaved Block Attention**  
+  Yinbo Sun et al.  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2510.21795)
+
+- **Reverso: Efficient Time Series Foundation Models for Zero-shot Forecasting**  
+  Xinghong Fu et al.  
+  arXiv 2026.  
+  [Paper](https://arxiv.org/abs/2602.17634) | [Code](https://github.com/shinfxh/reverso)
+
+- **WaveToken: Enhancing Foundation Models for Time Series Forecasting via Wavelet-based Tokenization**  
+  Amazon Science  
+  ICML 2025.  
+  [Paper](https://icml.cc/virtual/2025/poster/46131)
+
+- **In-Context Fine-Tuning for Time-Series Foundation Models**  
+  ICML 2025.  
+  [Paper](https://icml.cc/virtual/2025/poster/43707)
+
+- **AdaPTS: Adapting Univariate Foundation Models to Probabilistic Multivariate Time Series Forecasting**  
+  ICML 2025.  
+  [Paper](https://icml.cc/virtual/2025/poster/43518)
+
+- **ELF: Lightweight Online Adaptation for Time Series Foundation Model Forecasts**  
+  ICML 2025.  
+  [Paper](https://icml.cc/virtual/2025/poster/44485)
+
+- **Are Time Series Foundation Models Ready for Zero-Shot Forecasting?**  
+  ICML 2025.  
+  [Paper](https://icml.cc/virtual/2025/47480)
+
 ## C. Graph Neural Network-based Models
+
+- **MCI-GRU: Stock Prediction Model Based on Multi-head Cross-attention and Improved GRU**  
+  Neurocomputing, 2025.  
+  [Paper](https://doi.org/10.1016/j.neucom.2025.129638)
+
+- **FinMamba: Market-Aware Graph Enhanced Multi-Level Mamba for Stock Movement Prediction**  
+  Yifan Hu, Peiyuan Liu, Yuante Li, Dawei Cheng, Naiqi Li, Tao Dai, Jigang Bao, Shu-Tao Xia  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2502.06707)
 
 - **LSR-IGRU: Stock Trend Prediction Based on Long Short-Term Relationships and Improved GRU**  
   Peng Zhu, Yuante Li, Yifan Hu, Qinyuan Liu, Dawei Cheng, Yuqi Liang  
@@ -890,6 +1031,45 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   [Paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557412) | [Codes](https://github.com/ECNU-CILAB/OASS)
 
 ## E. Transformer-based Models
+
+- **Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting**  
+  ICLR 2026.  
+  [Paper](https://openreview.net/pdf?id=pQzQfslqlD)
+
+- **TimeFilter: Patch-Specific Spatial-Temporal Graph Filtration for Time Series Forecasting**  
+  Yifan Hu, Guibin Zhang, Peiyuan Liu, Disen Lan, Naiqi Li, Dawei Cheng, Tao Dai, Shu-Tao Xia, Shirui Pan  
+  ICML 2025.  
+  [Paper](https://openreview.net/forum?id=490VcNtjh7)
+
+- **TimeBridge: Non-Stationarity Matters for Long-term Time Series Forecasting**  
+  AAAI 2025.  
+  [Paper](https://arxiv.org/abs/2410.04442)
+
+- **Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting**  
+  Yifan Hu, Peiyuan Liu, Peng Zhu, Dawei Cheng, Tao Dai  
+  AAAI 2025.  
+  [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/33908)
+
+- **AdaWaveNet: Adaptive Wavelet Network for Non-stationary Time Series Forecasting via End-to-End Learning**  
+  Journal of King Saud University - Computer and Information Sciences, 2026.  
+  [Paper](https://link.springer.com/article/10.1007/s44443-026-00537-5)
+
+- **MoVE: Synergistic Integration of Temporal and Cross-Variable Experts for Multivariate Time Series Forecasting**  
+  ICLR 2026.  
+  [Paper](https://openreview.net/forum?id=lDG61tzAyQ)
+
+- **DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting**  
+  Xiangfei Qiu et al.  
+  KDD 2025.  
+  [Paper](https://arxiv.org/abs/2412.10859) | [Code](https://github.com/decisionintelligence/DUET)
+
+- **TFPS: Learning Pattern-Specific Experts for Time Series Forecasting Under Patch-level Distribution Shift**  
+  NeurIPS 2025.  
+  [Paper](https://neurips.cc/virtual/2025/poster/119258)
+
+- **TimeDistill: Efficient Long-Term Time Series Forecasting with MLP via Cross-Architecture Distillation**  
+  KDD 2026.  
+  [Paper](https://arxiv.org/abs/2502.15016) | [Code](https://github.com/LingFengGold/TimeDistill)
 
 - **MASTER: Market-Guided Stock Transformer for Stock Price Forecasting**  
   Tong Li, Zhaoyang Liu, Yanyan Shen, Xue Wang, Haokun Chen, Sen Huang  
@@ -1061,6 +1241,27 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   IJCAI, 2024.  
   [Paper](https://doi.org/10.24963/ijcai.2024/895)
 
+- **Foundation Models for Time Series: A Survey**  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2504.04011)
+
+- **Harnessing Vision Models for Time Series Analysis: A Survey**  
+  IJCAI 2025 (Survey Track).  
+  [Paper](https://www.ijcai.org/proceedings/2025/1178.pdf)
+
+- **Empowering Time Series Analysis with Synthetic Data: A Survey**  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2503.11411)
+
+- **A Survey of Reasoning and Agentic Systems in Time Series with Large Language Models**  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2509.11575)
+
+- **FinTSB: A Comprehensive and Practical Benchmark for Financial Time Series Forecasting**  
+  Yifan Hu, Yuante Li, Peiyuan Liu, Yuxia Zhu, Naiqi Li, Tao Dai, Shu-tao Xia, Dawei Cheng, Changjun Jiang  
+  ICAIFW 2025 (Best Paper).  
+  [Paper](https://arxiv.org/abs/2502.18834)
+
 - **Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook**  
   Ming Jin, Qingsong Wen, Yuxuan Liang, Chaoli Zhang, Siqiao Xue, Xue Wang, James Zhang, Yi Wang, Haifeng Chen, Xiaoli Li, Shirui Pan, Vincent S. Tseng, Yu Zheng, Lei Chen, Hui Xiong  
   arXiv, 2023.  
@@ -1125,6 +1326,27 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   author={Bian, Yuxuan and Ju, Xuan and Li, Jiangtong and Xu, Zhijian and Cheng, Dawei and Xu, Qiang},
   booktitle={ICML},
   year={2024}
+}
+
+@inproceedings{hu2025bridging,
+  title={Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting},
+  author={Hu, Yifan and others},
+  booktitle={ICLR},
+  year={2026}
+}
+
+@inproceedings{hu2025timebridge,
+  title={TimeBridge: Non-Stationarity Matters for Long-term Time Series Forecasting},
+  author={Hu, Yifan and others},
+  booktitle={AAAI},
+  year={2025}
+}
+
+@article{hu2025llm4fts,
+  title={LLM4FTS: Enhancing Large Language Models for Financial Time Series Prediction},
+  author={Hu, Yifan and others},
+  journal={arXiv preprint arXiv:2505.02880},
+  year={2025}
 }
 ```
 
