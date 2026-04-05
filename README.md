@@ -1328,7 +1328,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   year={2024}
 }
 
-@inproceedings{hu2025bridging,
+@inproceedings{hu2026bridging,
   title={Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting},
   author={Hu, Yifan and others},
   booktitle={ICLR},
