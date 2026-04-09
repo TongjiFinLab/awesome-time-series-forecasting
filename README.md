@@ -27,9 +27,9 @@ If you notice any missing content or would like to contribute, please feel free 
 > ✨ **Recent Update (April 5, 2026)**
 >
 > We have added **~40 new papers** covering the latest advances from **ICLR 2026, ICML 2025, NeurIPS 2025, KDD 2025/2026, AAAI 2026, IJCAI 2025**, and more. Key additions include:
-> - New LLM-based methods: SE-LLM (ICLR 2026), FreqLLM (IJCAI 2025), Conversational TSFMs (ICLR 2026)
+> - New LLM-based methods: SE-LLM (ICLR 2026), FreqLLM (IJCAI 2025)
 > - Foundation models: Chronos-2, Moirai 2.0, Aurora (ICLR 2026), TimeDiT (KDD 2025), TimeHF, Toto
-> - New Transformer architectures: MoVE (ICLR 2026), DUET (KDD 2025), TFPS (NeurIPS 2025), TimeDistill (KDD 2026)
+> - New Transformer architectures: DUET (KDD 2025), TFPS (NeurIPS 2025), TimeDistill (KDD 2026)
 > - Vision-Language models for TS: VLM4TS (AAAI 2026 Oral), OccamVTS (AAAI 2026)
 > - Multiple new surveys and benchmarks
 >
@@ -133,7 +133,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 |**Xie et al.**|Forecasting|E|-|`Text-based`|-|`Multi-modal Fusion`|❌|
 |**TimeReasoner**|Forecasting|E|-|`Text-based`|-|-|❌|
 |**Time-R1**|Forecasting|E|-|`Text-based`|-|-|❌|
-|**Time-RA**|Anomaly Etection|E|-|-|-|-|✅|
+|**Time-RA**|Anomaly Detection|E|-|-|-|-|✅|
 |**TEMPO**|Forecasting|IE+E|`Patch-level`|`Vector-based`|`Emb-Injected`|`Hybrid(LoRA)`|[✅](https://github.com/DC-research/TEMPO)|
 |**LLM4TS**|Forecasting|IE+E|`Patch-level`|`Vector-based`|-|`Endogenous(LoRA)`|[✅](https://github.com/blacksnail789521/LLM4TS)|
 |**TEST**|General|IE+E|`Patch-level`|`Vector-based`|`Contrastive`|`Exogenous(Direct)`|✅|
@@ -194,7 +194,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Multi-patch prediction: Adapting language models for time series representation learning**  
   Yuxuan Bian, Xuan Ju, Jiangtong Li, Zhijian Xu, Dawei Cheng, Qiang Xu  
-  ICLR 2024.  
+  ICML 2024.  
   [Paper](https://openreview.net/pdf?id=Rx9GMufByc) | [Code](https://github.com/yxbian23/aLLM4TS)
 
 - **Time-LLM: Time Series Forecasting by Reprogramming Large Language Models**  
@@ -261,10 +261,6 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   Qianqian Xie, Weiguang Han, Yanzhao Lai, Min Peng, Jimin Huang  
   arXiv 2023.  
   [Paper](https://arxiv.org/pdf/2304.05351)
-
-- **Conversational Time Series Foundation Models**  
-  ICLR 2026.  
-  [Paper](https://openreview.net/forum?id=1oGQCCmydB)
 
 - **Rethinking the Role of LLMs in Time Series Forecasting**  
   Xin Qiu et al.  
@@ -370,7 +366,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Multi-patch prediction: Adapting language models for time series representation learning**  
   Yuxuan Bian, Xuan Ju, Jiangtong Li, Zhijian Xu, Dawei Cheng, Qiang Xu  
-  ICLR 2024.  
+  ICML 2024.  
   [Paper](https://openreview.net/pdf?id=Rx9GMufByc) | [Code](https://github.com/yxbian23/aLLM4TS)
 
 ###### Exogenous Parameters <!-- omit in toc -->
@@ -413,7 +409,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Multi-patch prediction: Adapting language models for time series representation learning**  
   Yuxuan Bian, Xuan Ju, Jiangtong Li, Zhijian Xu, Dawei Cheng, Qiang Xu  
-  ICLR 2024.  
+  ICML 2024.  
   [Paper](https://openreview.net/pdf?id=Rx9GMufByc) | [Code](https://github.com/yxbian23/aLLM4TS)
 
 ###### LoRA-based Fine-tuning <!-- omit in toc -->
@@ -446,7 +442,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Multi-patch prediction: Adapting language models for time series representation learning**  
   Yuxuan Bian, Xuan Ju, Jiangtong Li, Zhijian Xu, Dawei Cheng, Qiang Xu  
-  ICLR 2024.  
+  ICML 2024.  
   [Paper](https://openreview.net/pdf?id=Rx9GMufByc) | [Code](https://github.com/yxbian23/aLLM4TS)
 
 ###### Synthetic Data Generation <!-- omit in toc -->
@@ -464,12 +460,12 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 ###### Multi-Modal Data Fusion <!-- omit in toc -->
 
 - **Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models**  
-  Tan Xie, Zhi Da  
+  Alejandro Lopez-Lira, Yuehua Tang  
   arXiv 2023. [[Paper](https://arxiv.org/abs/2304.07619)]
 
 - **Frozen language model helps ECG zero-shot learning**  
   Jun Li, Che Liu, Sibo Cheng, Rossella Arcucci, Shenda Hong  
-  arXiv 2024.  
+  MIDL, 2023.  
   [Paper](https://proceedings.mlr.press/v227/li24a/li24a.pdf)
 
 - **TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting**  
@@ -589,7 +585,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   [Paper](https://arxiv.org/abs/2403.00782)
 
 - **Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models**  
-  Duxin Xie, Jingru Zhang, Hui Wang, Yongqiang Chu, Jiayu Li
+  Alejandro Lopez-Lira, Yuehua Tang  
   arXiv 2023.  
   [Paper](https://arxiv.org/abs/2304.07619)
 
@@ -616,9 +612,9 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 ##### Stock Price Forecasting  <!-- omit in toc -->
 
 - **Temporal Data Meets LLM -- Explainable Financial Time Series Forecasting**  
-  Xinli Yu, Zheng Chen, Yuan Gao, Zongyu Dai, Qianqian Xie, Jimin Huang  
+  Xinli Yu, Zheng Chen, Yuan Ling, Shujing Dong, Zongyi Liu, Yanbin Lu  
   EMNLP 2023.  
-  [Paper](https://aclanthology.org/2023.emnlp-main.193.pdf) | [Code](https://github.com/bnewm0609/qa-decontext/tree/emnlp)
+  [Paper](https://aclanthology.org/2023.emnlp-main.193.pdf)
 
 - **Leveraging Vision-Language Models for Granular Market Change Prediction**  
   Christopher Wimmer, Navid Rekabsaz  
@@ -706,8 +702,8 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Mobility-llm: Learning visiting intentions and travel preference from human mobility data with large language models**  
   Letian Gong, Yan Lin, Yiwen Lu, Xuedi Han, Yichen Liu, Shengnan Guo, Youfang Lin, Huaiyu Wan, et al.  
-  Advances in NeurIPS, 2024.  
-  [Paper](https://www.sciencedirect.com/science/article/pii/S0198971524000826)
+  NeurIPS, 2024.  
+  [Paper](https://arxiv.org/abs/2411.00823)
 
 - **Where would I go next? Large language models as human mobility predictors**  
   Xinglei Wang, Meng Fang, Zichao Zeng, Tao Cheng  
@@ -761,7 +757,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 - **TimeGPT in load forecasting: A large time series model perspective**  
   Wenlong Liao, Shouxiang Wang, Dechang Yang, Zhe Yang, Jiannong Fang, Christian Rehtanz, Fernando Porté-Agel  
   Applied Energy, 2025.  
-  [Paper](https://www.sciencedirect.com/science/article/pii/S0306261925006956)
+  [Paper](https://www.sciencedirect.com/science/article/pii/S0306261924023572)
 
 - **Large Language Model-Empowered Interactive Load Forecasting**  
   Yu Zuo, Dalin Qin, Yi Wang  
@@ -777,7 +773,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **ClimaX: A foundation model for weather and climate**  
   Tung Nguyen, Johannes Brandstetter, Ashish Kapoor, Jayesh K Gupta, Aditya Grover  
-  CIML, 2023.  
+  ICML, 2023.  
   [Paper](https://proceedings.mlr.press/v202/nguyen23a/nguyen23a.pdf) | [Code](https://github.com/microsoft/ClimaX)
 
 - **Climatellm: Efficient weather forecasting via frequency-aware large language models**  
@@ -804,7 +800,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Frozen language model helps ECG zero-shot learning**  
   Jun Li, Che Liu, Sibo Cheng, Rossella Arcucci, Shenda Hong  
-  arXiv, 2024.  
+  MIDL, 2023.  
   [Paper](https://proceedings.mlr.press/v227/li24a/li24a.pdf)
 
 - **Health system-scale language models are all-purpose prediction engines**  
@@ -1042,7 +1038,8 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   [Paper](https://openreview.net/forum?id=490VcNtjh7)
 
 - **TimeBridge: Non-Stationarity Matters for Long-term Time Series Forecasting**  
-  AAAI 2025.  
+  Peiyuan Liu, Beiliang Wu, Yifan Hu, Naiqi Li, Tao Dai, Jigang Bao, Shu-Tao Xia  
+  ICML 2025.  
   [Paper](https://arxiv.org/abs/2410.04442)
 
 - **Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting**  
@@ -1053,10 +1050,6 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 - **AdaWaveNet: Adaptive Wavelet Network for Non-stationary Time Series Forecasting via End-to-End Learning**  
   Journal of King Saud University - Computer and Information Sciences, 2026.  
   [Paper](https://link.springer.com/article/10.1007/s44443-026-00537-5)
-
-- **MoVE: Synergistic Integration of Temporal and Cross-Variable Experts for Multivariate Time Series Forecasting**  
-  ICLR 2026.  
-  [Paper](https://openreview.net/forum?id=lDG61tzAyQ)
 
 - **DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting**  
   Xiangfei Qiu et al.  
@@ -1102,17 +1095,17 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   [Paper](https://datalab.snu.ac.kr/~ukang/papers/dtmlKDD21.pdf) | [Codes](https://github.com/simonjisu/DTML-pytorch)
 
 - **Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting**  
-  Haixu Zhou, Yifan Zhang, Jieqi Peng, Jianxin Wu, Ziqing Liu, Hao Li, Haoran Xu, Weijian Xu  
+  Haoyi Zhou, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, Wancai Zhang  
   AAAI, 2021.  
   [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/17325/17132) | [Code](https://github.com/zhouhaoyi/Informer2020)
 
 - **iTransformer: Inverted Transformers Are Effective for Time Series Forecasting**  
   Yong Liu, Tengge Hu, Haoran Zhang, Haixu Wu, Shiyu Wang, Lintao Ma, Mingsheng Long  
-  arXiv, 2023.  
+  ICLR, 2024.  
   [Paper](https://openreview.net/pdf?id=JePfAI8fah) | [Code](https://github.com/thuml/iTransformer)
 
 - **A Time Series is Worth 64 Words: Long-term Forecasting with Transformers**  
-  Xiang Nie, Ailing Zeng, Muxi Chen, Qiang Xu  
+  Yuqi Nie, Nam H. Nguyen, Phanwadee Sinthong, Jayant Kalagnanam  
   ICLR, 2023.  
   [Paper](https://openreview.net/pdf?id=Jbdc0vTOcol) | [Code](https://github.com/yuqinie98/PatchTST)
 
@@ -1277,8 +1270,8 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 <summary>📋 <strong>BibTeX Citations</strong></summary>
 
 ```bibtex
-@article{li2025r,
-  title={R\&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization},
+@inproceedings{li2025r,
+  title={R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization},
   author={Li, Yuante and Yang, Xu and Yang, Xiao and Xu, Minrui and Wang, Xisen and Liu, Weiqing and Bian, Jiang},
   booktitle={NeurIPS},
   year={2025}
@@ -1310,8 +1303,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   title={TimeFilter: Patch-Specific Spatial-Temporal Graph Filtration for Time Series Forecasting},
   author={Yifan Hu and Guibin Zhang and Peiyuan Liu and Disen Lan and Naiqi Li and Dawei Cheng and Tao Dai and Shu-Tao Xia and Shirui Pan},
   booktitle={ICML},
-  year={2025},
-  url={https://openreview.net/forum?id=490VcNtjh7}
+  year={2025}
 }
 
 @inproceedings{hu2025adaptive,
@@ -1330,15 +1322,15 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 @inproceedings{hu2026bridging,
   title={Bridging Past and Future: Distribution-Aware Alignment for Time Series Forecasting},
-  author={Hu, Yifan and others},
+  author={Hu, Yifan and Yang, Jie and Zhou, Tian and Liu, Peiyuan and Tang, Yujin and Jin, Rong and Sun, Liang},
   booktitle={ICLR},
   year={2026}
 }
 
-@inproceedings{hu2025timebridge,
+@inproceedings{liu2025timebridge,
   title={TimeBridge: Non-Stationarity Matters for Long-term Time Series Forecasting},
-  author={Hu, Yifan and others},
-  booktitle={AAAI},
+  author={Liu, Peiyuan and Wu, Beiliang and Hu, Yifan and Li, Naiqi and Dai, Tao and Bao, Jigang and Xia, Shu-Tao},
+  booktitle={ICML},
   year={2025}
 }
 
