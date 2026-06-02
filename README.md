@@ -5,8 +5,8 @@
 
 **📈 A Comprehensive Collection of Papers, Codes & Resources for Time Series Analysis**
 
-[![Paper Count](https://img.shields.io/badge/Papers-240+-blue)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
-[![Last Update](https://img.shields.io/badge/Last%20Update-April%202026-green)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
+[![Paper Count](https://img.shields.io/badge/Papers-250+-blue)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
+[![Last Update](https://img.shields.io/badge/Last%20Update-June%202026-green)](https://github.com/TongjiFinLab/awesome-time-series-forecasting)
 [![Stars](https://img.shields.io/badge/Stars%3F-180+-green.svg)](https://github.com/TongjiFinLab/awesome-time-series-forecasting/graphs/commit-activity)
 
 </div>
@@ -24,6 +24,12 @@
 **🔥 Collaboration:**  
 If you notice any missing content or would like to contribute, please feel free to reach out!
 
+> ✨ **Recent Update (June 2026)**
+>
+> Updated the papers and figures.
+>
+> ---
+>
 > ✨ **Recent Update (April 5, 2026)**
 >
 > We have added **~40 new papers** covering the latest advances from **ICLR 2026, ICML 2025, NeurIPS 2025, KDD 2025/2026, AAAI 2026, IJCAI 2025**, and more. Key additions include:
@@ -78,9 +84,9 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - [A. Large Language Models](#a-large-language-models)
   - [Taxonomy of Roles and Unified Workflows](#taxonomy-of-roles-and-unified-workflows)
-    - [Role 1️: Fine-tune-based Inference Engines](#role-1️-fine-tune-based-inference-engines)
-    - [Role 2️: Enhancer based on TSA Methods](#role-2️-enhancer-based-on-tsa-methods)
-    - [Role 3️: Hybrid Collaborators](#role-3️-hybrid-collaborators)
+    - [Role 1️: Direct Inference Engines](#role-1️-direct-inference-engines)
+    - [Role 2️: Static Feature Enhancers](#role-2️-static-feature-enhancers)
+    - [Role 3️: Dynamic Task Controllers](#role-3️-dynamic-task-controllers)
   - [Application](#application)
     - [Finance](#finance)
     - [Traffic](#traffic)
@@ -110,6 +116,13 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 </div>
 
 ### Taxonomy of Roles and Unified Workflows
+
+<div align="center">
+  <img src="figs/role_arch.png" alt="Architectural diagrams of the three LLM roles" width=800/>
+</div>
+<div align="center">
+  <b>Figure 2: Architectural diagrams of the three roles — (a) Direct Inference Engine, (b) Static Feature Enhancer, and (c) Dynamic Task Controller — illustrating how deeply the LLM is integrated into the TSA pipeline.</b>
+</div>
 
 <div align="center"><sub>
 
@@ -158,11 +171,12 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 </sub></div>
 
 
-<sub>***Note**: **IE** stands for Inference Engine, **E** stands for Enhancer, **IE+E** stands for the combination of Inference Engine and Enhancer, and **HC** stands for Hybrid Collaborator.*</sub>
+<sub>***Note**: Roles follow the survey taxonomy — **IE** = Inference Engine (Direct Inference Engine), **E** = Enhancer (Static Feature Enhancer), **IE+E** = the combination of the two, and **HC** = Hybrid Collaborator (Dynamic Task Controller).*</sub>
 
 
 
-#### Role 1️: Fine-tune-based Inference Engines 
+#### Role 1️: Direct Inference Engines
+*(a.k.a. Fine-tune-based Inference Engines)* 
 
 ##### Tokenization Approaches <!-- omit in toc -->
 
@@ -175,7 +189,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **MedualTime: A Dual-Adapter Language Model for Medical Time Series-Text Multimodal Learning**  
   Ye, Jiexia and Zhang, Weiqi and Li, Ziyue and Li, Jia and Zhao, Meng and Tsung, Fugee  
-  arXiv, 2024.  
+  IJCAI 2025.  
   [Paper](https://arxiv.org/abs/2406.06620) | [Code](https://github.com/start2020/MedualTime)
 
 
@@ -184,6 +198,11 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   IEEE TKDE, 2023.  
   [Paper](https://ieeexplore.ieee.org/document/10123956) | [Code](https://github.com/haoxue2/PromptCast)
 
+
+- **LLM-ABBA: Understanding Time Series via Symbolic Approximation**  
+  Xinye Chen, Erin Carson, Cheng Kang  
+  IEEE Transactions on Signal Processing, 2026.  
+  [Paper](https://doi.org/10.1109/TSP.2026.3662011)
 
 ###### Patch-level Tokenization <!-- omit in toc -->
 
@@ -254,7 +273,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **TableTime: Reformulating Time Series Classification as Training-Free Table Understanding with Large Language Models**  
   Jiahao Wang, Mingyue Cheng, Qingyang Mao, Yitong Zhou, Feiyang Xu, Xin Li  
-  arXiv 2024.  
+  CIKM 2025.  
   [Paper](https://arxiv.org/abs/2411.15737)
 
 - **The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges**  
@@ -328,7 +347,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Transfer knowledge from natural language to electrocardiography: Can we detect cardiovascular disease through language models?**  
   Jielin Qiu, William Han, Jiacheng Zhu, Mengdi Xu, Michael Rosenberg, Emerson Liu, Douglas Weber, Ding Zhao  
-  arXiv 2023.  
+  Findings of EACL, 2023.  
   [Paper](https://arxiv.org/abs/2301.09017) | [Code](https://github.com/Jielin-Qiu/Transfer_Knowledge_from_Language_to_ECG)
 
 - **S²IP-LLM: Semantic space informed prompt learning with LLM for time series forecasting**  
@@ -350,7 +369,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Tent: Connect language models with IoT sensors for zero-shot activity recognition**  
   Yunjiao Zhou, Jianfei Yang, Han Zou, Lihua Xie  
-  arXiv 2023.  
+  IEEE Transactions on Mobile Computing, 2026.  
   [Paper](https://arxiv.org/abs/2311.08245)
 
 ##### Fine-tuning <!-- omit in toc -->
@@ -429,7 +448,8 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   ICML 2024.  
   [Paper](https://openreview.net/pdf?id=qwQVV5R8Y7) | [Code](https://github.com/panzijie825/S2IP-LLM)
 
-#### Role 2️: Enhancer based on TSA Methods
+#### Role 2️: Static Feature Enhancers
+*(a.k.a. Enhancer based on TSA Methods)*
 
 ##### Enhancement of Time Series Data <!-- omit in toc -->
 
@@ -491,6 +511,11 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   arXiv 2025.  
   [Paper](https://arxiv.org/abs/2508.11954)
 
+- **AV2TS: A Multivariate Time Series Modeling Framework for Audio-Visual Segmentation**  
+  Li Shen, Yangzhu Wang, Xuyi Fan, Yuning Wei, Huaxin Qiu  
+  IEEE Transactions on Multimedia, 2026.  
+  [Paper](https://doi.org/10.1109/TMM.2026.3654457)
+
 ##### Enhancement of Interpretability <!-- omit in toc -->
 
 - **Can "Slow-thinking" LLMs Make Time Series Predictions More Reliable? Enhancing LLM-based Time Series Forecasting via Chain-of-Thought Prompting**  
@@ -513,7 +538,8 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   arXiv 2025.  
   [Paper](https://arxiv.org/pdf/2507.15066?)
 
-#### Role 3️: Hybrid Collaborators
+#### Role 3️: Dynamic Task Controllers
+*(a.k.a. Hybrid Collaborators)*
 
 - **Domain-Oriented Time Series Inference Agents for Reasoning and Automated Analysis**  
   Wen Ye, Wei Yang, Defu Cao, Yizhou Zhang, Lumingyuan Tang, Jie Cai, Yan Liu  
@@ -562,7 +588,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 </div>
 
 <div align="center">
-  <b>Figure 2: An overview of the application of LLMs for TSA.</b>
+  <b>Figure 3: An overview of the application of LLMs for TSA.</b>
 </div>
 
 #### Finance
@@ -627,7 +653,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   [Paper](https://arxiv.org/pdf/2409.08281?)
 
 - **LLM4FTS: Enhancing Large Language Models for Financial Time Series Prediction**  
-  Dawei Cheng et al.  
+  Zian Liu, Renjun Jia  
   arXiv 2025.  
   [Paper](https://arxiv.org/abs/2505.02880)
 
@@ -685,13 +711,18 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Embracing large language models in traffic flow forecasting**  
   Yusheng Zhao, Xiao Luo, Haomin Wen, Zhiping Xiao, Wei Ju, Ming Zhang  
-  arXiv 2024.  
+  Findings of ACL, 2025.  
   [Paper](https://arxiv.org/pdf/2412.12201)
 
 - **TrafficGPT: Viewing, processing and interacting with traffic foundation models**  
   Siyao Zhang, Daocheng Fu, Wenzhe Liang, Zhao Zhang, Bin Yu, Pinlong Cai, Baozhen Yao  
   Transport Policy, 2024.  
   [Paper](https://www.sciencedirect.com/science/article/pii/S0967070X24000726) | [Code](https://github.com/lijlansg/TrafficGPT)
+
+- **Emergency Events Traffic Flow Forecasting Using Text-Prompt-Guided Multimodal Large Language Models**  
+  Yaxuan Lu, Guangyu Huo, Xiaohui Cui, Boyue Wang, Yong Zhang, Zhiyong Cui  
+  IEEE Transactions on Intelligent Transportation Systems, 2026.  
+  [Paper](https://doi.org/10.1109/TITS.2026.3672914)
 
 #### Human Mobility Forecasting <!-- omit in toc -->
 
@@ -727,7 +758,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **UrbanLLM: Autonomous Urban Activity Planning and Management with Large Language Models**  
   Yifei Jiang, Xinyan Zhu, Jiayu Fan, Hua Wei  
-  arXiv, 2024.  
+  EMNLP 2024.  
   [Paper](https://arxiv.org/pdf/2406.12360) | [Code](https://github.com/JIANGYUE61610306/UrbanLLM/tree/main)
 
 #### Energy
@@ -810,8 +841,13 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **MedualTime: A Dual-Adapter Language Model for Medical Time Series-Text Multimodal Learning**  
   Ye, Jiexia; Zhang, Weiqi; Li, Ziyue; Li, Jia; Zhao, Meng; Tsung, Fugee  
-  arXiv, 2024.  
+  IJCAI 2025.  
   [Paper](https://arxiv.org/abs/2406.06620) | [Code](https://github.com/start2020/MedualTime)
+
+- **Large Language Model-informed ECG Dual Attention Network for Heart Failure Risk Prediction**  
+  Chen Chen, Lei Li, Marcel Beetz, Abhirup Banerjee, Ramneek Gupta, Vicente Grau  
+  IEEE Transactions on Big Data, 2025.  
+  [Paper](https://arxiv.org/abs/2403.10581)
 
 ## B. Foundation Models
 
@@ -907,6 +943,21 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 - **Are Time Series Foundation Models Ready for Zero-Shot Forecasting?**  
   ICML 2025.  
   [Paper](https://icml.cc/virtual/2025/47480)
+
+- **TimeRAF: Retrieval-Augmented Foundation Model for Zero-Shot Time Series Forecasting**  
+  Huanyu Zhang, Chang Xu, Yi-Fan Zhang, Zhang Zhang, Liang Wang, Jiang Bian  
+  IEEE Transactions on Knowledge and Data Engineering, 2025.  
+  [Paper](https://doi.org/10.1109/TKDE.2025.3579137)
+
+- **MetaIndux-TS: Frequency-Aware AIGC Foundation Model for Industrial Time Series**  
+  Haiteng Wang, Lei Ren, Yikang Li, Yuqing Wang  
+  IEEE Transactions on Neural Networks and Learning Systems, 2025.  
+  [Paper](https://doi.org/10.1109/TNNLS.2025.3577203)
+
+- **Bridging Distribution Gaps in Time Series Foundation Model Pretraining With Prototype-Guided Normalization**  
+  Peiliang Gong, Emadeldeen Eldele, Min Wu, Zhenghua Chen, Xiaoli Li, Daoqiang Zhang  
+  IEEE Transactions on Neural Networks and Learning Systems, 2026.  
+  [Paper](https://doi.org/10.1109/TNNLS.2026.3673975)
 
 ## C. Graph Neural Network-based Models
 
@@ -1252,13 +1303,27 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **FinTSB: A Comprehensive and Practical Benchmark for Financial Time Series Forecasting**  
   Yifan Hu, Yuante Li, Peiyuan Liu, Yuxia Zhu, Naiqi Li, Tao Dai, Shu-tao Xia, Dawei Cheng, Changjun Jiang  
-  ICAIFW 2025 (Best Paper).  
-  [Paper](https://arxiv.org/abs/2502.18834)
+  Frontiers of Computer Science, 2026 (Best Paper, ICAIFW 2025).  
+  [Paper](https://doi.org/10.1007/s11704-026-51064-5) | [arXiv](https://arxiv.org/abs/2502.18834)
 
 - **Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook**  
   Ming Jin, Qingsong Wen, Yuxuan Liang, Chaoli Zhang, Siqiao Xue, Xue Wang, James Zhang, Yi Wang, Haifeng Chen, Xiaoli Li, Shirui Pan, Vincent S. Tseng, Yu Zheng, Lei Chen, Hui Xiong  
   arXiv, 2023.  
   [Paper](https://doi.org/10.48550/arXiv.2310.10196)
+
+- **Foundation Models for Time Series Analysis: A Tutorial and Survey**  
+  Yuxuan Liang, Haomin Wen, Yuqi Nie, Yushan Jiang, Ming Jin, Dongjin Song, Shirui Pan, Qingsong Wen  
+  SIGKDD, 2024.  
+  [Paper](https://doi.org/10.1145/3637528.3671451)
+
+- **Empowering Time Series Analysis with Foundation Models: A Comprehensive Survey**  
+  Jiexia Ye, Yongzi Yu, Weiqi Zhang, Le Wang, Jia Li, Fugee Tsung  
+  arXiv 2025.  
+  [Paper](https://arxiv.org/abs/2405.02358)
+
+- **TSRBench: A Comprehensive Multi-task Multi-modal Time Series Reasoning Benchmark for Generalist Models**  
+  arXiv 2026.  
+  [Paper](https://arxiv.org/abs/2601.18744)
 
 
 ## 📚 **Citation**
@@ -1284,11 +1349,13 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   year={2025},
 }
 
-@article{hu2025fintsb,
+@article{hu2026fintsb,
   title={FinTSB: A Comprehensive and Practical Benchmark for Financial Time Series Forecasting}, 
-  author={Yifan Hu and Yuante Li and Peiyuan Liu and Yuxia Zhu and Naiqi Li and Tao Dai and Shu-tao Xia and Dawei Cheng and Changjun Jiang},
-  journal={arXiv preprint arXiv:2502.18834},
-  year={2025},
+  author={Hu, Yifan and Li, Yuante and Liu, Peiyuan and Zhu, Yuxia and Li, Naiqi and Dai, Tao and Xia, Shu-tao and Cheng, Dawei and Jiang, Changjun},
+  journal={Frontiers of Computer Science},
+  year={2026},
+  issn={2095-2228},
+  doi={10.1007/s11704-026-51064-5}
 }
 
 @article{hu2025finmamba,
@@ -1298,8 +1365,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   year={2025}
 }
 
-@inproceedings{
-  hu2025timefilter,
+@inproceedings{hu2025timefilter,
   title={TimeFilter: Patch-Specific Spatial-Temporal Graph Filtration for Time Series Forecasting},
   author={Yifan Hu and Guibin Zhang and Peiyuan Liu and Disen Lan and Naiqi Li and Dawei Cheng and Tao Dai and Shu-Tao Xia and Shirui Pan},
   booktitle={ICML},
@@ -1334,11 +1400,18 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   year={2025}
 }
 
-@article{hu2025llm4fts,
+@article{liu2025llm4fts,
   title={LLM4FTS: Enhancing Large Language Models for Financial Time Series Prediction},
-  author={Hu, Yifan and others},
+  author={Liu, Zian and Jia, Renjun},
   journal={arXiv preprint arXiv:2505.02880},
   year={2025}
+}
+
+@article{yu2026peakfocus,
+  title={PeakFocus: Bridging Peak Localization and Intensity Regression via a Unified Multi-Scale Framework for Electricity Load Forecasting},
+  author={Yu, Wangzhi and Zhu, Peng and Zhao, Qing and Jiang, Yiwen and Cheng, Dawei},
+  journal={arXiv preprint arXiv:2605.21550},
+  year={2026}
 }
 ```
 
