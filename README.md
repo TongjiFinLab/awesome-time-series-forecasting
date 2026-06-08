@@ -1216,6 +1216,11 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   arXiv 2021.  
   [Paper](https://arxiv.org/abs/2009.11189) | [Codes](https://github.com/microsoft/qlib)
 
+- **TWZRD Agent Intel: Trust Scoring and Wallet Reputation for AI Agent Economies**  
+  TWZRD  
+  Production, 2026.  
+  [MCP Server](https://intel.twzrd.xyz) | [Endpoint](https://intel.twzrd.xyz/mcp)
+
 ## I. Alpha Factor Mining
 
 - **AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors**  
