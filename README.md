@@ -1204,6 +1204,21 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   ICML, 2013.  
   [Paper](http://proceedings.mlr.press/v28/ganeshapillai13.pdf)
 
+- **Benchmarks for solar radiation time series forecasting**  
+  Cyril Voyant; Gilles Notton; Jean-Laurent Duchaud; Luis Antonio Garcia-Gutierrez; Jamie M. Bright; Dazhi Yang  
+  Renewable Energy, 2022.  
+  [Paper](https://doi.org/10.1016/j.renene.2022.04.065) | [Codes](https://github.com/cyrilvoyant/ARTU)
+
+- **Cyclostationary persistence operators (BLEND, CLIPER) for periodic energy time series**  
+  Cyril Voyant; Candice Banes; Luis Garcia-Gutierrez; Gilles Notton; Milan Despotovic; Zaher Mundher Yaseen  
+  arXiv, 2026.  
+  [Paper](https://arxiv.org/abs/2602.18949) | [Codes](https://github.com/cyrilvoyant/cyclostationary-forecasting-matlab)
+
+- **Does stationarization help? A frugal benchmark of deseasonalization for renewable energy forecasting**  
+  Maklewa Agoundedemba; Cyril Voyant; Milan Despotovic; Luis Antonio Garcia-Gutierrez; Gilles Notton  
+  2026.  
+  [Codes](https://github.com/cyrilvoyant/Make_Stationary)
+
 ## H. Quantitative Open Sourced Framework
 
 - **RD-Agent: Autonomous evolving agents for industrial data-drive R&D**  
