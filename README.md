@@ -1204,6 +1204,12 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   ICML, 2013.  
   [Paper](http://proceedings.mlr.press/v28/ganeshapillai13.pdf)
 
+- **CAST: A Cross-Asset State-Space Trading System for Drawdown Control in Stock Markets**  
+  Yu Peng, Matloob Khushi, Josiah Poon  
+  ICDM, 2026.  
+  [Paper](https://arxiv.org/abs/2609.14205) | [Codes](https://github.com/FanBroWell/CAST)
+
+
 ## H. Quantitative Open Sourced Framework
 
 - **RD-Agent: Autonomous evolving agents for industrial data-drive R&D**  
