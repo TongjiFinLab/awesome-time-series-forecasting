@@ -202,7 +202,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 - **PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting**  
   Hao Xue, Flora D Salim  
   IEEE TKDE, 2023.  
-  [Paper](https://ieeexplore.ieee.org/document/10123956) | [Code](https://github.com/cruiseresearchgroup/PISA-PromptCast)
+  [Paper](https://doi.org/10.1109/TKDE.2023.3342137) | [Code](https://github.com/cruiseresearchgroup/PISA-PromptCast)
 
 
 - **LLM-ABBA: Understanding Time Series via Symbolic Approximation**  
@@ -265,7 +265,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 - **PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting**  
   Hao Xue, Flora D Salim  
   IEEE TKDE, 2023.  
-  [Paper](https://ieeexplore.ieee.org/document/10123956) | [Code](https://github.com/cruiseresearchgroup/PISA-PromptCast)
+  [Paper](https://doi.org/10.1109/TKDE.2023.3342137) | [Code](https://github.com/cruiseresearchgroup/PISA-PromptCast)
 
 - **Leveraging language foundation models for human mobility forecasting**  
   Hao Xue, Bhanu Prakash Voutharoja, Flora D Salim  
@@ -279,7 +279,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **LST-Prompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting**  
   Haoxin Liu, Zhiyuan Zhao, Jindong Wang, Harshavardhan Kamarthi, B Aditya Prakash  
-  ACL 2024.  
+  Findings of ACL 2024.  
   [Paper](https://aclanthology.org/2024.findings-acl.466.pdf) | [Code](https://github.com/AdityaLab/lstprompt)
 
 - **TableTime: Reformulating Time Series Classification as Training-Free Table Understanding with Large Language Models**  
@@ -351,7 +351,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Can brain signals reveal inner alignment with human languages?**  
   Jielin Qiu, William Han, Jiacheng Zhu, Mengdi Xu, Douglas Weber, Bo Li, Ding Zhao  
-  EMNLP 2023.  
+  Findings of EMNLP 2023.  
   [Paper](https://aclanthology.org/2023.findings-emnlp.120.pdf) | [Code](https://github.com/Jielin-Qiu/EEG_Language_Alignment)
 
 ###### Distributional Alignment <!-- omit in toc -->
@@ -497,7 +497,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models**  
   Alejandro Lopez-Lira, Yuehua Tang  
-  arXiv 2023. [[Paper](https://arxiv.org/abs/2304.07619)]
+  Journal of Financial Economics, 2026. [[Paper](https://arxiv.org/abs/2304.07619)]
 
 - **Frozen language model helps ECG zero-shot learning**  
   Jun Li, Che Liu, Sibo Cheng, Rossella Arcucci, Shenda Hong  
@@ -534,8 +534,8 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 ##### Enhancement of Interpretability <!-- omit in toc -->
 
-- **Can "Slow-thinking" LLMs Make Time Series Predictions More Reliable? Enhancing LLM-based Time Series Forecasting via Chain-of-Thought Prompting**  
-  Shuai Wang, Qing Li, Chenyang Shang, Yushu Chen, Zhenyu Liu, Xiang Li, Shenda Hong  
+- **Can Slow-thinking LLMs Reason Over Time? Empirical Studies in Time Series Forecasting**  
+  Jiahao Wang, Mingyue Cheng, Qi Liu  
   arXiv 2025.  
   [Paper](https://arxiv.org/pdf/2505.24511) | [Code](https://github.com/ustc-time-series/TimeReasoner)
 
@@ -653,17 +653,17 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction**  
   Yujie Ding, Shuai Jia, Tianyi Ma, Bingcheng Mao, Xiuze Zhou, Liuliu Li, Dongming Han  
-  IJCAI 2023 Workshop.  
+  arXiv 2023.  
   [Paper](https://arxiv.org/abs/2310.05627)
 
 - **Ploutos: Towards Interpretable Stock Movement Prediction with Financial Large Language Model**  
   Hanshuang Tong, Jun Li, Ning Wu, Ming Gong, Dongmei Zhang, Qi Zhang
-  arXiv 2024.  
+  WWW 2025 Companion. (Published as "Ploutos: Towards Explainable Stock Movement Prediction with Financial Large Language Model".)  
   [Paper](https://arxiv.org/abs/2403.00782)
 
 - **Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models**  
   Alejandro Lopez-Lira, Yuehua Tang  
-  arXiv 2023.  
+  Journal of Financial Economics, 2026.  
   [Paper](https://arxiv.org/abs/2304.07619)
 
 - **The Wall Street Neophyte: A Zero-Shot Analysis of ChatGPT Over MultiModal Stock Movement Prediction Challenges**  
@@ -673,7 +673,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction**  
   Meiyun Wang, Kiyoshi Izumi, Hiroki Sakaji  
-  ACL 2024.  
+  Findings of ACL 2024.  
   [Paper](https://aclanthology.org/2024.findings-acl.185.pdf)
 
 - **Learning to generate explainable stock predictions using self-reflective large language models**  
@@ -683,7 +683,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
   
 - **Fine-Tuning Large Language Models for Stock Return Prediction Using Newsflow**  
   Tian Guo, Emmanuel Hauptmann
-  arXiv 2024.  
+  EMNLP 2024 Industry Track.  
   [Paper](https://arxiv.org/pdf/2407.18103?)
 
 ##### Stock Price Forecasting  <!-- omit in toc -->
@@ -691,7 +691,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 - **Temporal Data Meets LLM -- Explainable Financial Time Series Forecasting**  
   Xinli Yu, Zheng Chen, Yuan Ling, Shujing Dong, Zongyi Liu, Yanbin Lu  
   EMNLP 2023.  
-  [Paper](https://aclanthology.org/2023.emnlp-main.193.pdf)
+  [Paper](https://arxiv.org/abs/2306.11025)
 
 - **Leveraging Vision-Language Models for Granular Market Change Prediction**  
   Christopher Wimmer, Navid Rekabsaz  
@@ -706,7 +706,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 - **LLM4FTS: Enhancing Large Language Models for Financial Time Series Prediction**  
   Zian Liu, Renjun Jia  
   arXiv 2025.  
-  [Paper](https://arxiv.org/abs/2505.02880)
+  [Paper](https://arxiv.org/abs/2505.02880v1)
 
 - **Retrieval-augmented Large Language Models for Financial Time Series Forecasting**  
   arXiv 2025.  
@@ -762,10 +762,10 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **TPLLM: A Traffic Prediction Framework Based on Pretrained Large Language Models**  
   Yilong Ren, Yue Chen, Shuai Liu, Boyue Wang, Haiyang Yu, Zhiyuan Liu  
-  arXiv 2024.  
+  Applied Soft Computing, 2025.  
   [Paper](https://arxiv.org/pdf/2403.02221)
 
-- **TrafficBERT: Pre-trained model with large-scale permuted traffic data for long-term traffic forecasting**  
+- **TrafficBERT: Pre-trained model with large-scale data for long-range traffic flow forecasting**  
   Daejin Kim, Youngin Cho, Dongmin Kim, Cheonbok Park, Jaegul Choo  
   Expert Systems with Applications, 2021.  
   [Paper](https://www.sciencedirect.com/science/article/pii/S0957417421011179)
@@ -1063,7 +1063,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **TCGPN: Temporal-Correlation Graph Pre-trained Network for Stock Forecasting**  
   Wenbo Yan, Ying Tan  
-  arXiv, 2024.  
+  IJCNN, 2025.  
   [Paper](https://arxiv.org/abs/2407.18519)
 
 - **Temporal and Heterogeneous Graph Neural Network for Financial Time Series Prediction**  
@@ -1379,7 +1379,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook**  
   Ming Jin, Qingsong Wen, Yuxuan Liang, Chaoli Zhang, Siqiao Xue, Xue Wang, James Zhang, Yi Wang, Haifeng Chen, Xiaoli Li, Shirui Pan, Vincent S. Tseng, Yu Zheng, Lei Chen, Hui Xiong  
-  arXiv, 2023.  
+  ACM Computing Surveys, 2026.  
   [Paper](https://doi.org/10.48550/arXiv.2310.10196)
 
 - **Foundation Models for Time Series Analysis: A Tutorial and Survey**  
@@ -1389,7 +1389,7 @@ If you find this project helpful, please don't forget to give it a ⭐ Star to s
 
 - **Empowering Time Series Analysis with Foundation Models: A Comprehensive Survey**  
   Jiexia Ye, Yongzi Yu, Weiqi Zhang, Le Wang, Jia Li, Fugee Tsung  
-  arXiv 2025.  
+  Information Fusion, 2027 (January issue).  
   [Paper](https://arxiv.org/abs/2405.02358)
 
 - **TSRBench: A Comprehensive Multi-task Multi-modal Time Series Reasoning Benchmark for Generalist Models**  
